@@ -1,0 +1,13 @@
+package criminalintent.android.zaadjava.com.testapp;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class ZeeCalc extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.zee_calc);
+    }
+}

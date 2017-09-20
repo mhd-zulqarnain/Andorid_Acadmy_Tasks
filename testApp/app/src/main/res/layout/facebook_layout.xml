@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    tools:background="@color/colorPrimary"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="facebook"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:id="@+id/facebookHeader"
+            android:layout_margin="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/facebookHeader"
+            android:id="@+id/fbEmail"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/fbEmail"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:id="@+id/fbEmailbox"
+            android:background="#FFF"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/fbEmailbox"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/fbPass"
+        android:textStyle="bold"
+        android:textSize="18sp"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/fbPass"
+        android:id="@+id/fbPassbox"
+        android:layout_margin="10dp"
+        android:background="#FFF"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fbPassbox"
+        android:layout_marginTop="12dp"
+        android:id="@+id/fbPassRemeber"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Login"
+        android:layout_toRightOf="@id/fbPassRemeber"
+        android:layout_alignBaseline="@id/fbPassRemeber"
+        android:id="@+id/fbPassRemebeText"
+        android:textSize="16sp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Need an account? \n Sign up for your phone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:id="@+id/fbNewAcc"
+        android:textSize="16sp"
+        android:layout_marginBottom="13dp"
+
+
+        />
+
+
+</RelativeLayout>

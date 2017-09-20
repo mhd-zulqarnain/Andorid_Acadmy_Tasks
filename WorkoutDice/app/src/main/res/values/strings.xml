@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WorkoutDice</string>
+    <string name="question_view">WorkoutDice</string>
+    <string name="toast_true">Correct!</string>
+    <string name="toast_false">Incorrect</string>
+    <string name="btn_false">False</string>
+    <string name="btn_true">True</string>
+    <string name="btn_nxt">Next</string>
+
+    <string name="qestion_capital">Islamabad is the capital</string>
+    <string name="qestion_war">Pakistan fought 5 wars with india</string>
+
+</resources>

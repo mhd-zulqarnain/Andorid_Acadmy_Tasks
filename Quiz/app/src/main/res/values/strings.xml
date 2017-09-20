@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    <string name="question_text">turkey is a country</string>
+    <string name="true_btn">true</string>
+    <string name="false_btn">false</string>
+    <string name="action_setting">Settings</string>
+</resources>

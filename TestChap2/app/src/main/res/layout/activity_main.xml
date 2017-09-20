@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="4"
+    android:useDefaultMargins="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid row0col1!"
+        android:layout_gravity="fill"
+        android:layout_rowSpan="2"
+        android:shadowColor="#f00"
+        android:shadowDx="10"
+        android:shadowDy="3"
+        android:shadowRadius="5"
+         />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid row0col2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid row0col3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid row1col1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid row1col2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid row1col2" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="viewNxt"
+        android:id="@+id/nxtActivity" />
+    <EditText
+        android:maxLines="2"
+        android:inputType="number"
+        android:hint="Enter the percentage"
+        android:layout_width="wrap_content"
+        android:maxLength="3"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        />
+</GridLayout>
