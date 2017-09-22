@@ -7,9 +7,15 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.zulqarnain.sqlretrosecond.Model.ShopProducts;
+import com.example.zulqarnain.sqlretrosecond.Utilities.ApiClint;
+import com.example.zulqarnain.sqlretrosecond.Utilities.ApiInterface;
 import com.example.zulqarnain.sqlretrosecond.database.ShopDbHelper;
 
 import java.util.ArrayList;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private ShopDbHelper shopDbHelper;
@@ -29,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         mShow.setOnClickListener(this);
         mInsert.setOnClickListener(this);
+        synData();
 
     }
 
@@ -52,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Message.message(this, "the response " + i);
             }
             Message.message(this, "duplicated " );
-
+            synData();
 
         }else {
             ArrayList<ShopProducts> shopProducts =shopDbHelper.getAllProducts();
@@ -62,4 +69,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         }
     }
+
+    private void synData() {
+
+                ApiInterface apiClint = ApiClint.getApiClint().create(ApiInterface.class);
+                Call<ArrayList<ShopProducts>> call= apiClint.getProduts();
+                call.enqueue(new Callback<ArrayList<ShopProducts>>() {
+                    @Override
+                    public void onResponse(Call<ArrayList<ShopProducts>> call, Response<ArrayList<ShopProducts>> response) {
+                        ArrayList<ShopProducts> list= response.body();
+                        for(ShopProducts model:list){
+                            if(!isDuplicate(model)){
+                                shopDbHelper.insert(model);
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<ArrayList<ShopProducts>> call, Throwable t) {
+                        Message.message(MainActivity.this,"Caught error"+t);
+                    }
+                });
+            }
 }
