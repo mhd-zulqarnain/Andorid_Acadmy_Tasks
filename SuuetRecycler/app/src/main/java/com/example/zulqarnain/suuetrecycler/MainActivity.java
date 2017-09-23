@@ -17,9 +17,7 @@ public class MainActivity extends AppCompatActivity {
         list= new ArrayList<>();
         list.add(new Student("Ali","Science"));
         list.add(new Student("Ahmed","Arts"));
-
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_view_container);
-
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
 
         CustomRecyclerAdapter adapter = new CustomRecyclerAdapter(list);

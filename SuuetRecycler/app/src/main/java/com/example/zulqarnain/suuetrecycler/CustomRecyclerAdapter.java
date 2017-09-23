@@ -15,8 +15,7 @@ import java.util.List;
 public class CustomRecyclerAdapter extends RecyclerView.Adapter<CustomRecyclerAdapter.StudentViewHolder> {
 
     List<Student> studentList;
-    CustomRecyclerAdapter(List<Student> list)
-    {
+    CustomRecyclerAdapter(List<Student> list){
         this.studentList = list;
     }
 

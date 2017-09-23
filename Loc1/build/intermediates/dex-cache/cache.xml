@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_749f92721abc8a389255a48e6bc4f467c7c672e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1a8321a2e87bef30733fa88c532e98437dcd9f11">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c848d829e946cd0c987e66894fe0a1b5ac3c151a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.1_3232edb73aadf7337a50c6e00b6e709c8977b5ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.3.1_feb9167f43fcac43e7698cb8245de9b1e6aacc86\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.1_d99fcba15a3d38cedc5277af23554634a4dfb6d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.3.1_c8fbc9e57e7d41a59dbdae3a2cde1a1c2111f7c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.1_79d2f6b40ec0fa84b2f9f4a04b5ee45b778a95a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.1_401319eef785e3aaa3257d3bb4e221a2010f1553\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.1_3ee4b448a2475ed9a9b64e785f159d001d5e99c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.3.1_71ff47243ae3190d3f0ed8f0b44b87297ab0f619\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7c38e089aea6dd0a6d3ba5a85b2258fb03fbb32a">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3cd2ec80fe2cf3cd977de6ae9b905231e5e07456\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\Loc1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.1_3817bc2c15fc59aaac89c17c154f9e3fcc8fd73f\classes.dex" />
+    </item>
+
+</items>
