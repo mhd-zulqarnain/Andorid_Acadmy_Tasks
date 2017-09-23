@@ -1,4 +1,4 @@
-package com.example.zulqarnain.locationservice;
+package com.example.zulqarnain.locationservice.test;
 
 import android.Manifest;
 import android.app.Service;

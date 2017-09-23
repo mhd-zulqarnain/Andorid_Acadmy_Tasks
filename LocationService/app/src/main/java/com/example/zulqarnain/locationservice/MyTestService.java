@@ -1,20 +1,26 @@
 package com.example.zulqarnain.locationservice;
 
+import android.app.IntentService;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Handler;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
+import android.util.Log;
+import android.widget.Toast;
 
 /**
  * Created by Zul Qarnain on 9/21/2017.
  */
 
-public class MyTestService extends Service {
-    Context context;
-    MyTestService(Context context){
-        this.context = context;
+public class MyTestService extends IntentService {
+    Handler mHandler;
+
+    public MyTestService() {
+        super("test service");
     }
+
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
@@ -22,15 +28,41 @@ public class MyTestService extends Service {
     }
 
     @Override
-    public void onCreate() {
-        super.onCreate();
-    Messege.messege(context,"onCreated called");
+    protected void onHandleIntent(Intent intent) {
+
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Messege.messege(context,"onStartCommand called");
+        // Let it continue running until it is stopped.
+        Log.d("called", "Service Started");
+        mHandler = new android.os.Handler();
+        ping();
+        Toast.makeText(this, "on command Service Started", Toast.LENGTH_LONG).show();
+        return START_STICKY;
+    }
 
-        return super.onStartCommand(intent, flags, startId);
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.d("called", "Service Destroyed");
+
+    }
+    private void ping() {
+        try {
+            Log.e("Mycode", "In onStartCommand");
+
+
+        } catch (Exception e) {
+            Log.e("Error", "In onStartCommand");
+            e.printStackTrace();
+        }
+        scheduleNext();
+    }
+
+    private void scheduleNext() {
+        mHandler.postDelayed(new Runnable() {
+            public void run() { ping(); }
+        }, 1000);
     }
 }
