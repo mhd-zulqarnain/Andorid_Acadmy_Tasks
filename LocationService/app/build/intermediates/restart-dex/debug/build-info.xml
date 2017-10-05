@@ -5,33 +5,40 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="377952492186447"
+    timestamp="33554685678626"
     token="3421411252870077107"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="250" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="31" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="64" />
     <task
         name="verifier"
-        duration="0" />
+        duration="10" />
 
     <artifact
-        location="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="377952492186447"
+        timestamp="33519302688888"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="33554685678626"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

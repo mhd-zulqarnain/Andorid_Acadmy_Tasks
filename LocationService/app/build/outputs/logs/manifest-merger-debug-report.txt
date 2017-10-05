@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:3:5-53
 		INJECTED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml
@@ -26,7 +26,7 @@ ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\
 	android:name
 		ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:8:5-24:19
+ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:8:5-28:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:29:5-20
@@ -65,11 +65,21 @@ ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\
 	android:name
 		ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:20:27-74
 service#com.example.zulqarnain.locationservice.MyTestService
-ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:23:9-79
+ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:23:49-72
 	android:stopWithTask
-		ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:23:50-77
+		ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:23:73-100
 	android:name
 		ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:23:19-48
+intent-filter#it.locationservice.location.service.MY_SERVICE
+ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:24:13-26:29
+	android:label
+		ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:24:28-72
+action#it.locationservice.location.service.MY_SERVICE
+ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:25:17-88
+	android:name
+		ADDED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml:25:25-86
 uses-sdk
 INJECTED from D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:21:5-23:78

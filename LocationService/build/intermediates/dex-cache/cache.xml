@@ -21,6 +21,42 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Zul Qarnain\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.3.0_cea375672e1d0088159c8069b0c97a5c876eddc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zul Qarnain\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_ee2d100238da6bd274f925629ebfee7d55f858e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.1_1d72234b4ca1f74baf4d37202564087608d29493\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.1_34fe42eba22dbdf7063316fbed0205e1dd0de2c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Zul Qarnain\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
         jumboMode="true"
         optimize="true"
@@ -39,30 +75,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Zul Qarnain\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
-        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.3.0_cea375672e1d0088159c8069b0c97a5c876eddc5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
         <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.1_c9ff940079339782f84d54388205493e4d637577\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Zul Qarnain\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_ee2d100238da6bd274f925629ebfee7d55f858e5\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -97,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="aeec47aab393de0f9eda1e604ebf3492a999b544">
+        sha1="537bd1183beae5c7481af34839b8f36f6a681062">
         <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_012fdefd446b2c5f73f6d5fa68c0d6e48b601696\classes.dex" />
     </item>
     <item
@@ -108,15 +126,6 @@
         revision="26.0.1"
         sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
         <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.3.1_ad613707f261e4b87a576e47932c01059d51b49f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.1_1d72234b4ca1f74baf4d37202564087608d29493\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -133,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="76ac498156e09dec3a7ca1ae0bad31327bb79f8e">
+        sha1="545e9ad311497698ff0bbb078cbe5477256cf133">
         <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8995d63ab714367516c038bcb24cf778d9f4369b\classes.dex" />
     </item>
     <item
@@ -144,15 +153,6 @@
         revision="26.0.1"
         sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
         <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.3.1_466ad8a1fa5aaabc5900eca06e0473136803bce3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="D:\OneDrive - Higher Education Commission\Work\java\android\Practise\LocationService\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.1_34fe42eba22dbdf7063316fbed0205e1dd0de2c7\classes.dex" />
     </item>
 
 </items>

@@ -2068,9 +2068,10 @@ containing a value of this type.
         public static final int country=0x7f060028;
         public static final int latitude=0x7f060029;
         public static final int longitude=0x7f06002a;
-        public static final int postalCode=0x7f06002b;
+        public static final int menuItemStartService=0x7f06002b;
+        public static final int postalCode=0x7f06002c;
         public static final int search_menu_title=0x7f060013;
-        public static final int settings=0x7f06002c;
+        public static final int settings=0x7f06002d;
         public static final int status_bar_notification_info_overflow=0x7f060014;
     }
     public static final class style {

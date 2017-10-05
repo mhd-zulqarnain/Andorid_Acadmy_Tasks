@@ -359,6 +359,7 @@
     <string name="country">Country : </string>
     <string name="latitude">Latitude : </string>
     <string name="longitude">Longitude : </string>
+    <string name="menuItemStartService">Myservice</string>
     <string name="postalCode">Postal Code : </string>
     <string name="search_menu_title">Search</string>
     <string name="settings">Settings</string>

@@ -36,8 +36,12 @@
 
         <service
             android:name="com.example.zulqarnain.locationservice.MyTestService"
-            android:exported="false"
-            android:stopWithTask="true" />
+            android:exported="true"
+            android:stopWithTask="true" >
+            <intent-filter android:label="@string/menuItemStartService" >
+                <action android:name="it.locationservice.location.service.MY_SERVICE" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
