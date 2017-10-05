@@ -42,6 +42,7 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.MyHolder
     public Student getItem(int position) {
         return list.get(position);
     }
+
 //---------------Selection of items----------------
     public void toggleSelection(int pos){
         if(selectedItems.get(pos,false)){
