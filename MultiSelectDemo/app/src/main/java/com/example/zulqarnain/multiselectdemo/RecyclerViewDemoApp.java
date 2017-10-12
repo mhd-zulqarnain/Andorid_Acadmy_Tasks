@@ -18,20 +18,13 @@ public class RecyclerViewDemoApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Random r = new Random();
-        /*demoMap = new SparseArray<Student>();
-        for (int i = 0; i < 20; i++) {
-            Student model = new Student("Test Label No. " + i);
-            demoData.add(model);
-            demoMap.put(model.id, model);*/
-//        }
     }
 
     public  ArrayList<Student> getDemoData() {
         demoMap = new SparseArray<Student>();
         demoData = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
-            Student model = new Student("Test Label No. " + i);
+            Student model = new Student("Student:" + i);
             demoData.add(model);
             demoMap.put(model.id, model);
         }

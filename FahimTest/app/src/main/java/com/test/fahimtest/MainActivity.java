@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
         if(resultCode==Activity.RESULT_OK){
             if(data==null)
                 return;
-            isCheater=CheatActivity.wasAnswerShown(data);
+            isCheater= CheatActivity.wasAnswerShown(data);
         }
     }
 }

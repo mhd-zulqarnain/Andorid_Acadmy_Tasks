@@ -1,7 +1,9 @@
 package com.example.zulqarnain.multiselectdemo;
 
+import android.graphics.Color;
 import android.support.v7.widget.LinearLayoutCompat;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.util.SparseArray;
 import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
@@ -45,19 +47,25 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.MyHolder
 
 //---------------Selection of items----------------
     public void toggleSelection(int pos){
-        if(selectedItems.get(pos,false)){
+        Log.d("s", "toggleSelection: "+pos);
+        if(selectedItems.get(pos)){
             selectedItems.delete(pos);
+            Log.d("s", "toggleSelection: remove");
         }
-        else
+        else{
             selectedItems.put(pos,true);
+            Log.d("s", "toggleSelection:added");
+
+        }
         notifyItemChanged(pos);
     }
     public void clearSelections() {
         selectedItems.clear();
         notifyDataSetChanged();
     }
+
     public ArrayList<Integer> getSelectedItem(){
-        ArrayList<Integer> item= new ArrayList<>(selectedItems.size());
+        ArrayList<Integer> item= new ArrayList<>();
         for(int i=0 ;i<selectedItems.size();i++){
             item.add(selectedItems.keyAt(i));
         }
@@ -82,12 +90,13 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.MyHolder
 
     public class MyHolder extends RecyclerView.ViewHolder implements View.OnClickListener, View.OnLongClickListener {
         TextView textView;
-
+        View itemView;
         public MyHolder(View itemView) {
             super(itemView);
             itemView.setOnClickListener(this);
             itemView.setOnLongClickListener(this);
             textView = (TextView) itemView;
+            this.itemView=itemView;
         }
 
         @Override
@@ -97,6 +106,7 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.MyHolder
 
         @Override
         public boolean onLongClick(View v) {
+            itemView.setBackgroundColor(selectedItems.get(getAdapterPosition()) ? Color.CYAN : Color.WHITE);
             clickListener.onItemLongClick(getAdapterPosition(), v);
             return false;
         }

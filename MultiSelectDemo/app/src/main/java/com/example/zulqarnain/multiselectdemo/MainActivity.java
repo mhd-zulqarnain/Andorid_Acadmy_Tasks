@@ -1,19 +1,16 @@
 package com.example.zulqarnain.multiselectdemo;
 
-import android.support.v4.view.GestureDetectorCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.view.ActionMode;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.GestureDetector;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
-import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -30,12 +27,10 @@ public class MainActivity extends AppCompatActivity implements ActionMode.Callba
         setContentView(R.layout.activity_main);
         recyclerView= (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false));
-//        list= new ArrayList<>();
         dataInsertion();
 
 
     }
-
     private void dataInsertion() {
        list =new RecyclerViewDemoApp().getDemoData();
         adapter = new StudentAdapter(list);
@@ -45,19 +40,21 @@ public class MainActivity extends AppCompatActivity implements ActionMode.Callba
             @Override
             public void onItemClick(int position, View v) {
                 Log.d(TAG, "onItemClick position: " + position);
+                myToggleSelection(position);
             }
 
             @Override
             public void onItemLongClick(int position, View v) {
                 Log.d(TAG, "onItemLongClick pos = " +position);
+
+                myToggleSelection(position);
+                Toast.makeText(v.getContext(),"long pressed",Toast.LENGTH_LONG).show();
+                Log.d("tesr", "onLongPress: pressed");
                 if (actionMode != null) {
                     return;
                 }
                 // Start the CAB using the ActionMode.Callback defined above
                 actionMode = startSupportActionMode(MainActivity.this);
-                myToggleSelection(position);
-
-                Log.d("tesr", "onLongPress: pressed");
             }
         });
     }
@@ -65,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements ActionMode.Callba
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
          super.onCreateOptionsMenu(menu);
-        getMenuInflater().inflate(R.menu.menu_item,menu);
+//        getMenuInflater().inflate(R.menu.menu_item,menu);
         return true;
     }
 
@@ -128,7 +125,9 @@ public class MainActivity extends AppCompatActivity implements ActionMode.Callba
 
     @Override
     public void onDestroyActionMode(ActionMode mode) {
+
         invalidateOptionsMenu();
+        adapter.clearSelections();
     }
 
 

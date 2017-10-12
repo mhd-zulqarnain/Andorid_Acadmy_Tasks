@@ -9,7 +9,6 @@ import android.util.Log;
 
 import java.util.UUID;
 
-import static zaadjava.com.crimetest.CrimeFragment.newInstance;
 
 public class CrimeActivity extends SingleFragmentActivity {
 
@@ -24,15 +23,15 @@ public class CrimeActivity extends SingleFragmentActivity {
     @Override
     protected Fragment createFragement()
     {
-
         UUID crimeId = (UUID) getIntent().getSerializableExtra(EXTRA_CRIME_ID);
-        return newInstance(crimeId);
+        return CrimeFragment.newInstance(crimeId);
     }
 
     public static boolean hasCrimeChanged(Intent intent){
         return CrimeFragment.hasCrimeChanged(intent);
     }
     public static UUID getCrimeID(Intent intent){
+
         return CrimeFragment.getCrimeID(intent);
     }
 }

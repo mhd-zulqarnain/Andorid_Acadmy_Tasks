@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import zaadjava.com.crimetest.CrimeFragment;
 
 import java.util.List;
 import java.util.UUID;
@@ -34,7 +35,7 @@ public class CrimePagerActivity extends AppCompatActivity{
             @Override
             public Fragment getItem(int position) {
                 Crime crime = mCrimes.get(position);
-                Fragment crimeFragment = zaadjava.com.crimetest.CrimeFragment.newInstance(crime.getId());
+                Fragment crimeFragment = CrimeFragment.newInstance(crime.getId());
                 return crimeFragment;
             }
 
