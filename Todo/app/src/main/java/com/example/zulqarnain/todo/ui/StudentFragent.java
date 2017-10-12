@@ -37,6 +37,7 @@ public class StudentFragent extends Fragment implements AdapterCallBack,View.OnC
     StudentAdapter adapter;
     EditText edName;
     Button btnPush;
+
     private final  String TAG ="com.tab";
     public static Fragment newInstance()
     {
@@ -55,7 +56,7 @@ public class StudentFragent extends Fragment implements AdapterCallBack,View.OnC
         mDetails = new ArrayList<>();
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        mDatabase = FirebaseDatabase.getInstance().getReference();
+        mDatabase = FirebaseDatabase.getInstance().getReference("student");
         populateData();
 
         adapter.setAdapterCallback(StudentFragent.this);
@@ -66,24 +67,29 @@ public class StudentFragent extends Fragment implements AdapterCallBack,View.OnC
         mDatabase.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                Log.d(TAG, "onDataChange: "+dataSnapshot.toString());
-                for(DataSnapshot snap:dataSnapshot.getChildren()){
-                    Student model = snap.getValue(Student.class);
-                    model.setKey(snap.getKey());
-                    Log.d(TAG, "onChildAdded: "+model);
+                Log.d(TAG, "onDataChange: " + dataSnapshot);
+
+                    Student model = dataSnapshot.getValue(Student.class);
+                    model.setKey(dataSnapshot.getKey());
                     mDetails.add(model);
-                }
+
                 adapter.notifyDataSetChanged();
+                Log.d(TAG, "onChildAdded:called");
 
             }
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+                Student st = dataSnapshot.getValue(Student.class);
+                Log.d(TAG, "onChildchange:called"+getItemIndex(st));
 
             }
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
+                Student st = dataSnapshot.getValue(Student.class);
+                int index = getItemIndex(st);
+                mDetails.remove(index);
                 adapter.notifyDataSetChanged();
             }
 
@@ -109,8 +115,6 @@ public class StudentFragent extends Fragment implements AdapterCallBack,View.OnC
             Student model = mDetails.get(i);
             if(model.getKey().equals(key)){
                 db.child(key).removeValue();
-                mDetails.remove(i);
-                adapter.notifyDataSetChanged();
             }
         }
     }
@@ -119,13 +123,21 @@ public class StudentFragent extends Fragment implements AdapterCallBack,View.OnC
     public void onClick(View view) {
         UUID randkey=UUID.randomUUID();
         String key = randkey.toString();
-
         String name = edName.getText().toString();
         DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference("student");
         Student student = new Student(name, key);
-
         mDatabase.child(key).setValue(student);
-        mDetails.add(student);
-        adapter.notifyDataSetChanged();
+
+    }
+
+    public int getItemIndex(Student std){
+        int index=-1;
+        for(int i =0 ;i<mDetails.size();i++){
+            if(mDetails.get(i).getKey().equals(std.getKey())){
+                index = i;
+               break;
+            }
+        }
+        return index;
     }
 }

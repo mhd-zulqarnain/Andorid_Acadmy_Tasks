@@ -45,8 +45,6 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StdViewH
     public void onBindViewHolder(StdViewHolder holder, int position) {
         Student std = list.get(position);
         holder.bindView(std);
-
-
     }
 
     @Override
@@ -63,6 +61,7 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StdViewH
         private Button rButton;
         private View itemView;
         private Student mStd;
+
         public StdViewHolder(View itemView) {
             super(itemView);
             name=itemView.findViewById(R.id.std_name);

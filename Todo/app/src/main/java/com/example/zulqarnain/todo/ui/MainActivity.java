@@ -37,16 +37,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-   /* public void pushData(View v) {
-        String name = edName.getText().toString();
-
-        DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
-
-        Student student = new Student(name, " key");
-        mDatabase.child("student").push().setValue(student);
-//        Log.d("tad", "pushData: ");
-
-    }*/
-
-
 }
