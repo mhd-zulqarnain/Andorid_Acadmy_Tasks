@@ -28,7 +28,6 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements AdapterCallBack {
     private DatabaseReference mDatabase;
-    ArrayList<Student> mDetails;
     RecyclerView recyclerView;
     StudentAdapter adapter;
 
@@ -44,78 +43,24 @@ public class MainActivity extends AppCompatActivity implements AdapterCallBack {
             fragment = StudentFragent.newInstance();
             manager.beginTransaction().add(R.id.fragment_holder,fragment).commit();
         }
-        /*recyclerView = (RecyclerView) findViewById(R.id.recyler_view);
-        mDetails = new ArrayList<>();
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        mDatabase = FirebaseDatabase.getInstance().getReference();
-        populateData();
-        adapter = new StudentAdapter(MainActivity.this,mDetails);
-        recyclerView.setAdapter(adapter);
-
-        mDatabase.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                Log.d("", "onDataChange: ");
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });*/
-/*        mDatabase.addChildEventListener(new ChildEventListener(){
-            @Override
-            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
-                    Student model =snapshot.getValue(Student.class);
-                    model.setKey(snapshot.getKey());
-                    mDetails.add(model);
-                    adapter.notifyDataSetChanged();
-                }
-
-
-            }
-
-            @Override
-            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-
-            }
-
-            @Override
-            public void onChildRemoved(DataSnapshot dataSnapshot) {
-
-            }
-
-            @Override
-            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });*/
-    }
-
-    private void populateData() {
-        for(int i =1;i<4;i++){
-            Student student = new Student(" tes "+i," sd "+i," key" +i);
-            mDetails.add(student);
-        }
-        adapter = new StudentAdapter(MainActivity.this,mDetails);
-        recyclerView.setAdapter(adapter);
     }
 
     public void pushData(View v){
+        ArrayList<Student> mDataforFireBase=new ArrayList<>();
+        mDatabase=FirebaseDatabase.getInstance().getReference();
+        for(int i =1;i<4;i++){
+            Student student = new Student(" tes "+i," sd "+i," key" +i);
+            mDataforFireBase.add(student);
+        }
         Log.d("tad", "pushData: ");
-        for(Student model:mDetails){
+        for(Student model: mDataforFireBase){
             mDatabase.child("student").push().setValue(model);
         }
     }
 
     @Override
-    public void methodcallback(String args) {
-        Log.d("", "methodcallback: "+args);
+    public void methodcallback(String key) {
+
+
     }
 }

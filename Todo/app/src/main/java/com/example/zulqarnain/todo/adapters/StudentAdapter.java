@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.zulqarnain.todo.model.Student;
+import com.example.zulqarnain.todo.model.StudentFragent;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -55,7 +56,7 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StdViewH
         return list.size();
     }
 
-    public void setAdapterCallback(MainActivity callback){
+    public void setAdapterCallback(StudentFragent callback){
         this.callback=callback;
     }
 
@@ -82,12 +83,12 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StdViewH
         @Override
         public void onClick(View view) {
             String key= mStd.getKey();
-//            callback.methodcallback("test");
+            callback.methodcallback(key);
 
-            FirebaseDatabase.getInstance().getReference("student")
+        /*    FirebaseDatabase.getInstance().getReference("student")
                     .child(key)
                     .removeValue();
-            Log.d("holder", "onClicked: "+mStd.getKey());
+            Log.d("holder", "onClicked: "+mStd.getKey());*/
 //            mDatabase.getParent().child(key).removeValue();
 //            mDatabase.child(mStd.getKey()).setValue("");
         }
