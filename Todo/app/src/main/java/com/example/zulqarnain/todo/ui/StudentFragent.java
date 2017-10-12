@@ -1,4 +1,4 @@
-package com.example.zulqarnain.todo.model;
+package com.example.zulqarnain.todo.ui;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,30 +9,34 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 
-import com.example.zulqarnain.todo.MainActivity;
-import com.example.zulqarnain.todo.Messege;
 import com.example.zulqarnain.todo.R;
 import com.example.zulqarnain.todo.adapters.AdapterCallBack;
 import com.example.zulqarnain.todo.adapters.StudentAdapter;
+import com.example.zulqarnain.todo.model.Student;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.UUID;
 
 /**
  * Created by Zul Qarnain on 10/11/2017.
  */
 
-public class StudentFragent extends Fragment implements AdapterCallBack {
+public class StudentFragent extends Fragment implements AdapterCallBack,View.OnClickListener {
     private DatabaseReference mDatabase;
     ArrayList<Student> mDetails;
     RecyclerView recyclerView;
     StudentAdapter adapter;
-
+    EditText edName;
+    Button btnPush;
     private final  String TAG ="com.tab";
     public static Fragment newInstance()
     {
@@ -44,6 +48,10 @@ public class StudentFragent extends Fragment implements AdapterCallBack {
         View view = inflater.inflate(R.layout.student_fragment_view,container,false);
 
         recyclerView = (RecyclerView) view.findViewById(R.id.recyler_view);
+        edName = (EditText) view.findViewById(R.id.ed_std_name);
+        btnPush =view.findViewById(R.id.btn_push);
+        btnPush.setOnClickListener(this);
+
         mDetails = new ArrayList<>();
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
@@ -55,15 +63,12 @@ public class StudentFragent extends Fragment implements AdapterCallBack {
     }
 
     private void populateData() {
-        /*for(int i =1;i<4;i++){
-            Student student = new Student(" tes "+i," sd "+i," key" +i);
-            mDetails.add(student);
-        }*/
         mDatabase.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                Log.d(TAG, "onDataChange: "+dataSnapshot.toString());
                 for(DataSnapshot snap:dataSnapshot.getChildren()){
-                   Student model = snap.getValue(Student.class);
+                    Student model = snap.getValue(Student.class);
                     model.setKey(snap.getKey());
                     Log.d(TAG, "onChildAdded: "+model);
                     mDetails.add(model);
@@ -108,5 +113,19 @@ public class StudentFragent extends Fragment implements AdapterCallBack {
                 adapter.notifyDataSetChanged();
             }
         }
+    }
+
+    @Override
+    public void onClick(View view) {
+        UUID randkey=UUID.randomUUID();
+        String key = randkey.toString();
+
+        String name = edName.getText().toString();
+        DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference("student");
+        Student student = new Student(name, key);
+
+        mDatabase.child(key).setValue(student);
+        mDetails.add(student);
+        adapter.notifyDataSetChanged();
     }
 }

@@ -1,11 +1,9 @@
 package com.example.zulqarnain.todo.adapters;
 
-import com.example.zulqarnain.todo.MainActivity;
 import com.example.zulqarnain.todo.R;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +11,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.zulqarnain.todo.model.Student;
-import com.example.zulqarnain.todo.model.StudentFragent;
+import com.example.zulqarnain.todo.ui.StudentFragent;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -62,14 +60,12 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StdViewH
 
     public class StdViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private TextView name;
-        private TextView phone;
         private Button rButton;
         private View itemView;
         private Student mStd;
         public StdViewHolder(View itemView) {
             super(itemView);
             name=itemView.findViewById(R.id.std_name);
-            phone=itemView.findViewById(R.id.std_phone);
             rButton=itemView.findViewById(R.id.btn_dlt);
             rButton.setOnClickListener(this);
         }
@@ -77,7 +73,6 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StdViewH
         public void bindView(Student std) {
             this.mStd=std;
             name.setText(mStd.getStdname());
-            phone.setText(mStd.getStdph());
         }
 
         @Override
