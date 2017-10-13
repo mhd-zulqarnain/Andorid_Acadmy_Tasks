@@ -10,14 +10,18 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp">
 
+
+
             <TextView
                 android:id="@+id/std_name"
                 android:layout_width="0dp"
-                android:layout_height="20dp"
+                android:layout_height="wrap_content"
                 android:text="Testting text"
                 android:layout_weight="4"
                 android:layout_marginTop="13dp"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
 
             <ImageButton
                 android:id="@+id/btn_dlt"
@@ -26,6 +30,7 @@
                 android:layout_weight=".4"
                 android:src="@drawable/ic_delete_black"
                 android:background="@null"
+
                 />
 
         </LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "98995018840",
+    "firebase_url": "https://valuetest-7eeef.firebaseio.com",
+    "project_id": "valuetest-7eeef",
+    "storage_bucket": "valuetest-7eeef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98995018840:android:6c67c008a457cda1",
+        "android_client_info": {
+          "package_name": "com.example.zulqarnain.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98995018840-tm5aanlejpdibojimuiellpf2ni3l1v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9WogwAXl-Xpa9MlaZq9uIvVaY1_hJ0Zg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
