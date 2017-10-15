@@ -1,5 +1,6 @@
-package com.example.zulqarnain.todo.ui;
+package com.example.zulqarnain.firebaseauth.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -14,10 +15,11 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.example.zulqarnain.todo.Messege;
-import com.example.zulqarnain.todo.R;
-import com.example.zulqarnain.todo.adapters.TaskAdapter;
-import com.example.zulqarnain.todo.model.Task;
+import com.example.zulqarnain.firebaseauth.LoginActivity;
+import com.example.zulqarnain.firebaseauth.Messege;
+import com.example.zulqarnain.firebaseauth.R;
+import com.example.zulqarnain.firebaseauth.adapters.TaskAdapter;
+import com.example.zulqarnain.firebaseauth.model.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -26,9 +28,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import java.util.ArrayList;
 
-/**
- * Created by Zul Qarnain on 10/11/2017.
- */
 
 public class TaskFragent extends Fragment implements View.OnClickListener ,View.OnKeyListener{
     private DatabaseReference mDatabase;
@@ -55,17 +54,15 @@ public class TaskFragent extends Fragment implements View.OnClickListener ,View.
         mDetails = new ArrayList<>();
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         edName.setOnKeyListener(this);
-        /*---Firebase stuff---*/
-//        auth = FirebaseAuth.getInstance();
-//        String user = auth.getCurrentUser().getUid();
-//        Messege.messege(getContext(),user+"");
+        auth = FirebaseAuth.getInstance();
         return view;
     }
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mDatabase = FirebaseDatabase.getInstance().getReference("fixxxxx").child("task");
+        String user = auth.getCurrentUser().getUid();
+        mDatabase = FirebaseDatabase.getInstance().getReference(user).child("task");
         populateData();
     }
 
@@ -73,9 +70,7 @@ public class TaskFragent extends Fragment implements View.OnClickListener ,View.
         mDatabase.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-
                 Task model =dataSnapshot.getValue(Task.class);
-
                 model.setKey(dataSnapshot.getKey());
                 mDetails.add(model);
                 adapter.notifyDataSetChanged();
@@ -151,5 +146,21 @@ public class TaskFragent extends Fragment implements View.OnClickListener ,View.
             return  true;
         }
         return false;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if(auth.getCurrentUser()==null){
+            startActivity(new Intent(getActivity(),LoginActivity.class));
+        }
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        if(auth.getCurrentUser()==null){
+            startActivity(new Intent(getActivity(),LoginActivity.class));
+        }
     }
 }

@@ -1,16 +1,18 @@
-package com.example.zulqarnain.todo.ui;
+package com.example.zulqarnain.firebaseauth.ui;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.example.zulqarnain.todo.Messege;
-import com.example.zulqarnain.todo.R;
+
+import com.example.zulqarnain.firebaseauth.LoginActivity;
+import com.example.zulqarnain.firebaseauth.Messege;
+import com.example.zulqarnain.firebaseauth.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 
@@ -20,11 +22,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         FragmentManager manager = getSupportFragmentManager();
         Fragment fragment = manager.findFragmentById(R.id.fragment_holder);
+
 
         if (fragment == null) {
             fragment = TaskFragent.newInstance();
@@ -47,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             Messege.messege(getBaseContext(),"Logout");
             if(FirebaseAuth.getInstance().getCurrentUser()!=null){
                 FirebaseAuth.getInstance().signOut();
-                startActivity(new Intent(MainActivity.this,LoginActivity.class));
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
             }
         }
         return true;

@@ -1,9 +1,8 @@
-package com.example.zulqarnain.firebaseauth;
+package com.example.zulqarnain.todo.ui;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -11,20 +10,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 
-import com.example.zulqarnain.firebaseauth.ui.MainActivity;
+import com.example.zulqarnain.todo.Messege;
+import com.example.zulqarnain.todo.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-/**
- * A login screen that offers login via email/password.
- */
-public class LoginActivity extends AppCompatActivity  {
+public class LoginActivity extends AppCompatActivity {
 
     private EditText edEmail;
     private EditText edPassword;
-    private Button btnSignup;
     private ProgressBar barProgress;
     private FirebaseAuth firebase;
 
@@ -33,10 +29,9 @@ public class LoginActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        edEmail = (EditText) findViewById(R.id.email);
-        edPassword = (EditText) findViewById(R.id.password);
-        btnSignup = (Button) findViewById(R.id.email_sign_in_button);
-        barProgress = (ProgressBar) findViewById(R.id.login_progress);
+        edEmail = (EditText) findViewById(R.id.ed_email);
+        edPassword = (EditText) findViewById(R.id.ed_password);
+        barProgress = (ProgressBar) findViewById(R.id.progress_bar);
 
         firebase= FirebaseAuth.getInstance();
 
@@ -46,7 +41,7 @@ public class LoginActivity extends AppCompatActivity  {
     }
 
 
-    public void signIn(View view){
+    public void signin(View view){
         String email= edEmail.getText().toString();
         String pass= edPassword.getText().toString();
 
@@ -72,14 +67,13 @@ public class LoginActivity extends AppCompatActivity  {
                         }
                         else{
                             Messege.messege(LoginActivity.this,"Successfully login ");
-                        startActivity(new Intent(LoginActivity.this,MainActivity.class));}
-
+                            startActivity(new Intent(LoginActivity.this,MainActivity.class));}
                     }
                 }
         );
     }
-    public void SignUp(View v){
-        startActivity(new Intent(LoginActivity.this,SignUpActivity.class));
+    public void signup(View view){
+        startActivity(new Intent(LoginActivity.this,SignupActivity.class));
+
     }
 }
-

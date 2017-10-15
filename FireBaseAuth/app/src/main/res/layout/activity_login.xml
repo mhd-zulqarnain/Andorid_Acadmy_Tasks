@@ -72,6 +72,14 @@
                 android:text="@string/action_sign_in"
                 android:textStyle="bold"
                 android:onClick="signIn"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                style="?android:textAppearanceSmall"
+                android:onClick="SignUp"
+                android:text="@string/action_sign_up"
+                />
 
         </LinearLayout>
     </ScrollView>

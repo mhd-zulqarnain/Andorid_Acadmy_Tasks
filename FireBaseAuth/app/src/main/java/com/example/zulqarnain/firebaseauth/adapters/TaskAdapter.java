@@ -1,19 +1,17 @@
-package com.example.zulqarnain.todo.adapters;
+package com.example.zulqarnain.firebaseauth.adapters;
 
-import com.example.zulqarnain.todo.R;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.example.zulqarnain.todo.model.Task;
-import com.example.zulqarnain.todo.ui.TaskFragent;
+
+import com.example.zulqarnain.firebaseauth.R;
+import com.example.zulqarnain.firebaseauth.model.Task;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
