@@ -1,4 +1,4 @@
-package com.example.zulqarnain.firebaseauth.ui;
+package com.example.zulqarnain.firebaseauth.ui.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,11 +15,11 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.example.zulqarnain.firebaseauth.LoginActivity;
 import com.example.zulqarnain.firebaseauth.Messege;
 import com.example.zulqarnain.firebaseauth.R;
 import com.example.zulqarnain.firebaseauth.adapters.TaskAdapter;
 import com.example.zulqarnain.firebaseauth.model.Task;
+import com.example.zulqarnain.firebaseauth.ui.LoginActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -148,19 +148,7 @@ public class TaskFragent extends Fragment implements View.OnClickListener ,View.
         return false;
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        if(auth.getCurrentUser()==null){
-            startActivity(new Intent(getActivity(),LoginActivity.class));
-        }
-    }
 
-    @Override
-    public void onStart() {
-        super.onStart();
-        if(auth.getCurrentUser()==null){
-            startActivity(new Intent(getActivity(),LoginActivity.class));
-        }
-    }
+
+
 }

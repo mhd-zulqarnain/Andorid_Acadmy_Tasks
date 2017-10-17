@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.zulqarnain.firebaseauth.LoginActivity">
+    tools:context="com.example.zulqarnain.firebaseauth.ui.LoginActivity">
 
     <!-- Login progress -->
     <ProgressBar
@@ -72,10 +72,18 @@
                 android:text="@string/action_sign_in"
                 android:textStyle="bold"
                 android:onClick="signIn"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Create new Account !!"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:background="#009688"
+                android:textColor="#fff"
                 style="?android:textAppearanceSmall"
                 android:onClick="SignUp"
                 android:text="@string/action_sign_up"

@@ -1,7 +1,6 @@
-package com.example.zulqarnain.firebaseauth;
+package com.example.zulqarnain.firebaseauth.ui;
 
 import android.content.Intent;
-import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,8 +10,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.Toast;
 
+import com.example.zulqarnain.firebaseauth.Messege;
+import com.example.zulqarnain.firebaseauth.R;
+import com.example.zulqarnain.firebaseauth.Validation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -46,6 +47,10 @@ public class SignUpActivity extends AppCompatActivity {
             Messege.messege(SignUpActivity.this, "Enter your email and password");
             return;
         }
+        if(!Validation.emailValidate(email)){
+            Messege.messege(SignUpActivity.this, "invalid email!!");
+            return;
+        }
         if(pass.length()<6){
             Messege.messege(SignUpActivity.this, "Password should contain 6 characters");
             return;
@@ -75,4 +80,20 @@ public class SignUpActivity extends AppCompatActivity {
         startActivity(new Intent(SignUpActivity.this,LoginActivity.class));
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        if(firebase.getCurrentUser()!=null){
+            startActivity(new Intent(SignUpActivity.this,MainActivity.class));
+        }
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        if(firebase.getCurrentUser()!=null){
+            startActivity(new Intent(SignUpActivity.this,MainActivity.class));
+
+        }
+    }
 }

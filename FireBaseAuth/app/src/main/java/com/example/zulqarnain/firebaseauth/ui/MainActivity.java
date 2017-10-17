@@ -1,24 +1,27 @@
 package com.example.zulqarnain.firebaseauth.ui;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
 
-import com.example.zulqarnain.firebaseauth.LoginActivity;
 import com.example.zulqarnain.firebaseauth.Messege;
 import com.example.zulqarnain.firebaseauth.R;
+import com.example.zulqarnain.firebaseauth.ui.fragment.TaskFragent;
 import com.google.firebase.auth.FirebaseAuth;
 
 
 public class MainActivity extends AppCompatActivity {
 
     final static String TAG = "log.tag.value";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,9 +54,18 @@ public class MainActivity extends AppCompatActivity {
             Messege.messege(getBaseContext(),"Logout");
             if(FirebaseAuth.getInstance().getCurrentUser()!=null){
                 FirebaseAuth.getInstance().signOut();
-                startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                Intent intent = new Intent(this, LoginActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+                finish();
+
             }
         }
         return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(true);
     }
 }

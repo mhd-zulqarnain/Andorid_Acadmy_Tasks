@@ -1,17 +1,21 @@
-package com.example.zulqarnain.firebaseauth;
+package com.example.zulqarnain.firebaseauth.ui;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 
-import com.example.zulqarnain.firebaseauth.ui.MainActivity;
+import com.example.zulqarnain.firebaseauth.Messege;
+import com.example.zulqarnain.firebaseauth.R;
+import com.example.zulqarnain.firebaseauth.Validation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -28,6 +32,8 @@ public class LoginActivity extends AppCompatActivity  {
     private ProgressBar barProgress;
     private FirebaseAuth firebase;
 
+    public static final  int EXIT=1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +47,10 @@ public class LoginActivity extends AppCompatActivity  {
         firebase= FirebaseAuth.getInstance();
 
         if(firebase.getCurrentUser()!=null){
-            startActivity(new Intent(LoginActivity.this,MainActivity.class));
+            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+            startActivity(intent);
+            finish();
         }
     }
 
@@ -52,6 +61,10 @@ public class LoginActivity extends AppCompatActivity  {
 
         if (TextUtils.isEmpty(email) || TextUtils.isEmpty(pass)) {
             Messege.messege(LoginActivity.this, "Enter your email and password");
+            return;
+        }
+        if(!Validation.emailValidate(email)){
+            Messege.messege(LoginActivity.this, "invalid email!!");
             return;
         }
         if(pass.length()<6){
@@ -72,7 +85,11 @@ public class LoginActivity extends AppCompatActivity  {
                         }
                         else{
                             Messege.messege(LoginActivity.this,"Successfully login ");
-                        startActivity(new Intent(LoginActivity.this,MainActivity.class));}
+                            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                            intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+                            startActivity(intent);
+                            finish();
+                        }
 
                     }
                 }
@@ -80,6 +97,15 @@ public class LoginActivity extends AppCompatActivity  {
     }
     public void SignUp(View v){
         startActivity(new Intent(LoginActivity.this,SignUpActivity.class));
+        Intent intent = new Intent(this, SignUpActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+        finish();
     }
+
+
+
+
+
 }
 
