@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        setTitle("Login");
         edEmail = (EditText) findViewById(R.id.email);
         edPassword = (EditText) findViewById(R.id.password);
         btnSignup = (Button) findViewById(R.id.email_sign_in_button);
@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity  {
 
         if(firebase.getCurrentUser()!=null){
             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+//            intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
             startActivity(intent);
             finish();
         }

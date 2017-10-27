@@ -1,62 +1,80 @@
-package com.example.zulqarnain.applanguage;
+package com.example.zulqarnain.googlespeech;
 
 import android.Manifest;
-import android.app.Activity;
 import android.content.pm.PackageManager;
-import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.text.TextUtils;
+import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
+   /* @BindView(R.id.textMessage)
+    TextView textMessage;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
+        textMessage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this,"clicked",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+    }*/
+
 
     public static final String TAG = "MainActivity";
 
     private static final int RECORD_REQUEST_CODE = 101;
-//    TextView status;
+   /* @BindView(R.id.status)
+    TextView status;
+    @BindView(R.id.textMessage)
     TextView textMessage;
-    ListView listView;
+
+    @BindView(R.id.listview)
+    ListView listView;*/
 
     private List<String> stringList;
     private SpeechAPI speechAPI;
     private VoiceRecorder mVoiceRecorder;
-    private final VoiceRecorder.Callback mVoiceCallback = new VoiceRecorder.Callback() {
+    /* private final VoiceRecorder.Callback mVoiceCallback = new VoiceRecorder.Callback() {
 
-        @Override
-        public void onVoiceStart() {
-            if (speechAPI != null) {
-                speechAPI.startRecognizing(mVoiceRecorder.getSampleRate());
-            }
-        }
+         @Override
+         public void onVoiceStart() {
+             if (speechAPI != null) {
+                 speechAPI.startRecognizing(mVoiceRecorder.getSampleRate());
+             }
+         }
 
-        @Override
-        public void onVoice(byte[] data, int size) {
-            if (speechAPI != null) {
-                speechAPI.recognize(data, size);
-            }
-        }
+         @Override
+         public void onVoice(byte[] data, int size) {
+             if (speechAPI != null) {
+                 speechAPI.recognize(data, size);
+             }
+         }
 
-        @Override
-        public void onVoiceEnd() {
-            if (speechAPI != null) {
-                speechAPI.finishRecognizing();
-            }
-        }
+         @Override
+         public void onVoiceEnd() {
+             if (speechAPI != null) {
+                 speechAPI.finishRecognizing();
+             }
+         }
 
-    };
+     };*/
     private ArrayAdapter adapter;
-    private final SpeechAPI.Listener mSpeechServiceListener =
+   /* private final SpeechAPI.Listener mSpeechServiceListener =
             new SpeechAPI.Listener() {
                 @Override
                 public void onSpeechRecognized(final String text, final boolean isFinal) {
@@ -78,24 +96,19 @@ public class MainActivity extends AppCompatActivity {
                         });
                     }
                 }
-            };
+            };*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        textMessage = (TextView) findViewById(R.id.textMessage);
-        listView= (ListView) findViewById(R.id.listview);
-//        status= (TextView) findViewById(R.id.status);*/
-
+//        ButterKnife.bind(this);
         Log.d(TAG, "onCreate: called");
-        speechAPI = new SpeechAPI(MainActivity.this);
-        stringList = new ArrayList<>();
-        String[] dr= new String[]{"asd","asd"};
-        adapter = new ArrayAdapter(MainActivity.this,
+        /*speechAPI = new SpeechAPI(MainActivity.this);*/
+      /*  stringList = new ArrayList<>();
+        adapter = new ArrayAdapter(this,
                 android.R.layout.simple_list_item_1, stringList);
-        listView.setAdapter(adapter);
+        listView.setAdapter(adapter);*/
     }
 
     @Override
@@ -103,8 +116,8 @@ public class MainActivity extends AppCompatActivity {
         stopVoiceRecorder();
         Log.d(TAG, "onStop: called");
         // Stop Cloud Speech API
-        speechAPI.removeListener(mSpeechServiceListener);
-        speechAPI.destroy();
+       /* speechAPI.removeListener(mSpeechServiceListener);
+        speechAPI.destroy();*/
         speechAPI = null;
 
         super.onStop();
@@ -121,13 +134,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
 
         Log.d(TAG, "onStart: called");
+       /* askPersmission(Manifest.permission.RECORD_AUDIO,RECORD_REQUEST_CODE);*/
 
+        /*
         if (isGrantedPermission(Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) {
             startVoiceRecorder();
         } else {
             makeRequest(Manifest.permission.RECORD_AUDIO);
         }
-        speechAPI.addListener(mSpeechServiceListener);
+        speechAPI.addListener(mSpeechServiceListener);*/
         super.onStart();
 
     }
@@ -144,8 +159,8 @@ public class MainActivity extends AppCompatActivity {
         if (mVoiceRecorder != null) {
             mVoiceRecorder.stop();
         }
-        mVoiceRecorder = new VoiceRecorder(mVoiceCallback);
-        mVoiceRecorder.start();
+//        mVoiceRecorder = new VoiceRecorder(mVoiceCallback);
+//        mVoiceRecorder.start();
     }
 
     private void stopVoiceRecorder() {
@@ -168,5 +183,12 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void askPersmission(String permission,int requestCode){
+        if(ContextCompat.checkSelfPermission(this,permission)!=PackageManager.PERMISSION_GRANTED){
+            ActivityCompat.requestPermissions(this,new String[]{permission},requestCode);
+        }else
+            Log.d(TAG, "askPersmission: Permission denied");
+
+    }
 
 }

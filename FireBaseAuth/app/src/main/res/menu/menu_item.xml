@@ -10,4 +10,11 @@
         app:showAsAction="always|collapseActionView"
 
         />
+
+    <item
+        android:id="@+id/add_new_tasks"
+        android:icon="@drawable/ic_add_task_24dp"
+        android:title="add ne task"
+        app:showAsAction="always|collapseActionView"/>
+
 </menu>

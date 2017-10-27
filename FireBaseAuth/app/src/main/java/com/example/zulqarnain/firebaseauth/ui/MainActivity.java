@@ -1,8 +1,10 @@
 package com.example.zulqarnain.firebaseauth.ui;
 
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
@@ -14,6 +16,7 @@ import android.view.MenuItem;
 
 import com.example.zulqarnain.firebaseauth.Messege;
 import com.example.zulqarnain.firebaseauth.R;
+import com.example.zulqarnain.firebaseauth.ui.fragment.AddDialogFragment;
 import com.example.zulqarnain.firebaseauth.ui.fragment.TaskFragent;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -60,6 +63,11 @@ public class MainActivity extends AppCompatActivity {
                 finish();
 
             }
+        }
+        if(item.getItemId()==R.id.add_new_tasks){
+
+            DialogFragment fragment = (AddDialogFragment) AddDialogFragment.newInstance();
+            fragment.show(getSupportFragmentManager().beginTransaction(),"myDialog");
         }
         return true;
     }
