@@ -62,11 +62,11 @@ public class MainActivity extends AppCompatActivity {
 
         storageReference = FirebaseStorage.getInstance().getReference();
         mDatabase = FirebaseDatabase.getInstance().getReference(DATABASE_PATH_UPLOADS);
-        auth  = FirebaseAuth.getInstance();
-        auth.signInWithEmailAndPassword("a@gmail.com","111111");
+        filepath =Uri.parse("android.resource://com.example.zulqarnain.firebaseupload/drawable/no_img");
+        auth = FirebaseAuth.getInstance();
+        auth.signInWithEmailAndPassword("a@gmail.com", "111111");
 
     }
-
 
     public void uploadImage(View v) {
         Intent intent = new Intent();
@@ -74,7 +74,6 @@ public class MainActivity extends AppCompatActivity {
         intent.setAction(Intent.ACTION_GET_CONTENT);
         startActivityForResult(Intent.createChooser(intent, "Select Picture"), PICK_IMG_REQUEST);
     }
-
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -102,6 +101,8 @@ public class MainActivity extends AppCompatActivity {
         if (filepath != null) {
             final ProgressDialog dialog = new ProgressDialog(this);
             dialog.setTitle("uploading");
+            Messege.messege(getBaseContext(),"status: "+filepath);
+
             dialog.show();
 
             StorageReference ref = storageReference.child(STORAGE_PATH_UPLOADS + System.currentTimeMillis());
@@ -112,15 +113,15 @@ public class MainActivity extends AppCompatActivity {
                             dialog.dismiss();
                             @SuppressWarnings("VisibleForTests")
                             Upload upload = new Upload(mName.getText().toString().trim(), taskSnapshot.getDownloadUrl().toString());
-                            String key= mDatabase.push().getKey();
+                            String key = mDatabase.push().getKey();
                             mDatabase.child(key).setValue(upload);
-                            Messege.messege(MainActivity.this,"Uploaded");
+                            Messege.messege(MainActivity.this, "Uploaded");
                         }
                     }).addOnFailureListener(new OnFailureListener() {
                 @Override
                 public void onFailure(@NonNull Exception e) {
                     dialog.dismiss();
-                    Log.d(TAG, "onFailure: "+e);
+                    Log.d(TAG, "onFailure: " + e);
                 }
             }).addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
                 @Override
@@ -134,9 +135,9 @@ public class MainActivity extends AppCompatActivity {
         } else Toast.makeText(MainActivity.this, "Select an Image ", Toast.LENGTH_SHORT).show();
     }
 
-    public void showDialog(View v){
-        FragmentTransaction ft=getSupportFragmentManager().beginTransaction();
+    public void showDialog(View v) {
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         DialogFragment dilogFragment = MyDialogFragment.newIntance(43);
-        dilogFragment.show(ft,"dilalog");
+        dilogFragment.show(ft, "dilalog");
     }
 }

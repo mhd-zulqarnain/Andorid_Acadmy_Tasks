@@ -2,16 +2,19 @@ package com.example.zulqarnain.firebaseauth.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 
 import com.example.zulqarnain.firebaseauth.R;
 import com.example.zulqarnain.firebaseauth.model.Task;
 import com.google.firebase.database.DatabaseReference;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -53,7 +56,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
     public class TaskViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private TextView name;
         private ImageButton rButton;
-        private View itemView;
+        private ImageView tImage;
         private Task mTsk;
 
         public TaskViewHolder(View itemView) {
@@ -61,11 +64,15 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
             name = itemView.findViewById(R.id.std_name);
             rButton = itemView.findViewById(R.id.btn_dlt);
             rButton.setOnClickListener(this);
+            tImage = itemView.findViewById(R.id.row_task_image);
         }
 
         public void bindView(Task tsk) {
             this.mTsk = tsk;
             name.setText(mTsk.getmTask());
+            if(!mTsk.getImageUrl().equals("null")){
+                Picasso.with(context).load(mTsk.getImageUrl()).fit().into(tImage);
+            }
         }
 
         @Override

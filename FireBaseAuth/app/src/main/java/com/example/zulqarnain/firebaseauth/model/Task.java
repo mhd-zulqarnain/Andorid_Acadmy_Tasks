@@ -5,15 +5,29 @@ package com.example.zulqarnain.firebaseauth.model;
  */
 
 public class Task {
-   private String mTask,key;
+   private String mTask,key,imageUrl;
 
     public Task(){
 
     }
 
-    public Task(String mTask,String key) {
+ /*   public Task(String mTask,String key) {
         this.mTask =mTask;
         this.key= key;
+    }*/
+
+    public Task(String mTask,String key,String imageUrl) {
+        this.mTask =mTask;
+        this.key= key;
+        this.imageUrl=imageUrl;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
     public String getmTask() {

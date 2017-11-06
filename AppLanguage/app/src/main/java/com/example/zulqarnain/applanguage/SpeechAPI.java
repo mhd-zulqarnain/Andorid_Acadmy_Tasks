@@ -169,7 +169,7 @@ public class SpeechAPI {
 
         StreamingRecognitionConfig streamingConfig = StreamingRecognitionConfig.newBuilder()
                 .setConfig(RecognitionConfig.newBuilder()
-                        .setLanguageCode("en-US")
+                        .setLanguageCode("ur")
                         .setEncoding(RecognitionConfig.AudioEncoding.LINEAR16)
                         .setSampleRateHertz(sampleRate)
                         .build()

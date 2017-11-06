@@ -102,12 +102,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onStop() {
         stopVoiceRecorder();
         Log.d(TAG, "onStop: called");
-        // Stop Cloud Speech API
-        speechAPI.removeListener(mSpeechServiceListener);
-        speechAPI.destroy();
-        speechAPI = null;
 
         super.onStop();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        // Stop Cloud Speech API
+        speechAPI.removeListener(mSpeechServiceListener);
+        /*speechAPI.destroy();*/
+        /*speechAPI = null;*/
     }
 
     @Override
@@ -115,12 +121,6 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         Log.d(TAG, "onResume: called");
 
-    }
-
-    @Override
-    protected void onStart() {
-
-        Log.d(TAG, "onStart: called");
 
         if (isGrantedPermission(Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) {
             startVoiceRecorder();
@@ -128,6 +128,13 @@ public class MainActivity extends AppCompatActivity {
             makeRequest(Manifest.permission.RECORD_AUDIO);
         }
         speechAPI.addListener(mSpeechServiceListener);
+
+        Log.d(TAG, "onResume: value "+mSpeechServiceListener);
+    }
+
+    @Override
+    protected void onStart() {
+
         super.onStart();
 
     }

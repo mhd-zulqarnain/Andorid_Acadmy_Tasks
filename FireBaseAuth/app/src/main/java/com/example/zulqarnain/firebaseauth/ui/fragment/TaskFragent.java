@@ -115,7 +115,7 @@ public class TaskFragent extends Fragment implements View.OnClickListener ,View.
         }
         String key = String.valueOf(mDatabase.push().getKey());
 
-        Task task = new Task(name, key);
+        Task task = new Task(name, key,"null");
         mDatabase.child(key).setValue(task);
         edName.setText("");
     }
@@ -140,7 +140,7 @@ public class TaskFragent extends Fragment implements View.OnClickListener ,View.
                 return false;
             }
             String key = String.valueOf(mDatabase.push().getKey());
-            Task task = new Task(name, key);
+            Task task = new Task(name, key,"null");
             mDatabase.child(key).setValue(task);
             edName.setText("");
             return  true;

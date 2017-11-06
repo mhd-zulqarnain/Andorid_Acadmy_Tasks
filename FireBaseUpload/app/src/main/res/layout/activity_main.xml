@@ -31,9 +31,11 @@
     </LinearLayout>
 
     <ImageView
+        android:id="@+id/img_view"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:id="@+id/img_view"/>
+        android:src="@drawable/no_img"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
