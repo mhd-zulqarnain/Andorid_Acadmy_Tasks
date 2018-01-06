@@ -128,8 +128,6 @@ public class AddDialogFragment extends DialogFragment {
             try {
                 Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContext().getContentResolver(), mImagePath);
                 mTaskImage.setImageBitmap(bitmap);
-
-
             } catch (Exception e) {
                 e.printStackTrace();
             }
