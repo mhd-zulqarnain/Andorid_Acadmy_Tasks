@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TodoAdapter</string>
+    <string name="hint_text">Enter new entries</string>
+
+</resources>

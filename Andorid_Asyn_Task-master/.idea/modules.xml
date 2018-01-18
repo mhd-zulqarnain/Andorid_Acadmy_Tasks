@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Andorid_Asyn_Task-master.iml" filepath="$PROJECT_DIR$/Andorid_Asyn_Task-master.iml" />
+      <module fileurl="file://D:\Work\java\android\Practise\Andorid_Asyn_Task-master\DataAsynStudents.iml" filepath="D:\Work\java\android\Practise\Andorid_Asyn_Task-master\DataAsynStudents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

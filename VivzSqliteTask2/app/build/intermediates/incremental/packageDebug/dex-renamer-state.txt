@@ -1,0 +1,4 @@
+#Thu Sep 14 20:41:25 PDT 2017
+base.0=D\:\\Work\\java\\android\\Suuet\\VivzSqliteTask2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\Work\\java\\android\\Suuet\\VivzSqliteTask2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
