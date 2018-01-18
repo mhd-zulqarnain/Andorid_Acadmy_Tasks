@@ -1,7 +1,0 @@
-#Fri Sep 22 23:26:12 PDT 2017
-base.0=D\:\\OneDrive - Higher Education Commission\\Work\\java\\android\\Practise\\Loc1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3cd2ec80fe2cf3cd977de6ae9b905231e5e07456
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=D\:\\OneDrive - Higher Education Commission\\Work\\java\\android\\Practise\\Loc1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c848d829e946cd0c987e66894fe0a1b5ac3c151a\\classes.dex
-base.1=D\:\\OneDrive - Higher Education Commission\\Work\\java\\android\\Practise\\Loc1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c848d829e946cd0c987e66894fe0a1b5ac3c151a
-file.0=D\:\\OneDrive - Higher Education Commission\\Work\\java\\android\\Practise\\Loc1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3cd2ec80fe2cf3cd977de6ae9b905231e5e07456\\classes.dex

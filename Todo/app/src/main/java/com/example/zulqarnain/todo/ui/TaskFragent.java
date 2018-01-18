@@ -13,22 +13,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.example.zulqarnain.todo.Messege;
 import com.example.zulqarnain.todo.R;
 import com.example.zulqarnain.todo.adapters.TaskAdapter;
 import com.example.zulqarnain.todo.model.Task;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
-
-import java.security.Key;
 import java.util.ArrayList;
-import java.util.UUID;
 
 /**
  * Created by Zul Qarnain on 10/11/2017.
@@ -41,6 +37,7 @@ public class TaskFragent extends Fragment implements View.OnClickListener ,View.
     TaskAdapter adapter;
     EditText edName;
     Button btnPush;
+    FirebaseAuth auth;
     private final String TAG = "com.tab";
 
     public static Fragment newInstance() {
@@ -56,19 +53,29 @@ public class TaskFragent extends Fragment implements View.OnClickListener ,View.
         btnPush = view.findViewById(R.id.btn_push);
         btnPush.setOnClickListener(this);
         mDetails = new ArrayList<>();
-        edName.setOnKeyListener(this);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        mDatabase = FirebaseDatabase.getInstance().getReference("Task");
-        populateData();
-
+        edName.setOnKeyListener(this);
+        /*---Firebase stuff---*/
+//        auth = FirebaseAuth.getInstance();
+//        String user = auth.getCurrentUser().getUid();
+//        Messege.messege(getContext(),user+"");
         return view;
+    }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        mDatabase = FirebaseDatabase.getInstance().getReference("fixxxxx").child("task");
+        populateData();
     }
 
     private void populateData() {
         mDatabase.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                Task model = dataSnapshot.getValue(Task.class);
+
+                Task model =dataSnapshot.getValue(Task.class);
+
                 model.setKey(dataSnapshot.getKey());
                 mDetails.add(model);
                 adapter.notifyDataSetChanged();
@@ -99,7 +106,7 @@ public class TaskFragent extends Fragment implements View.OnClickListener ,View.
             public void onCancelled(DatabaseError databaseError) {
             }
         });
-        adapter = new TaskAdapter(getContext(), mDetails);
+        adapter = new TaskAdapter(getContext(), mDetails,mDatabase);
         recyclerView.setAdapter(adapter);
     }
 
@@ -111,10 +118,10 @@ public class TaskFragent extends Fragment implements View.OnClickListener ,View.
             Messege.messege(getContext(),"Fill the field");
             return;
         }
-        DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference("Task");
         String key = String.valueOf(mDatabase.push().getKey());
-        Task Task = new Task(name, key);
-        mDatabase.child(key).setValue(Task);
+
+        Task task = new Task(name, key);
+        mDatabase.child(key).setValue(task);
         edName.setText("");
     }
 
@@ -132,16 +139,14 @@ public class TaskFragent extends Fragment implements View.OnClickListener ,View.
     @Override
     public boolean onKey(View view, int keyCode, KeyEvent event) {
         if(keyCode==KeyEvent.KEYCODE_ENTER &&(event.getAction() == KeyEvent.ACTION_DOWN) ){
-
             String name = edName.getText().toString();
             if(TextUtils.isEmpty(name)){
                 Messege.messege(getContext(),"Fill the field");
                 return false;
             }
-            DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference("Task");
             String key = String.valueOf(mDatabase.push().getKey());
-            Task Task = new Task(name, key);
-            mDatabase.child(key).setValue(Task);
+            Task task = new Task(name, key);
+            mDatabase.child(key).setValue(task);
             edName.setText("");
             return  true;
         }

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FlexibleLayout</string>
+    <string-array name="topic_heading">
+        <item> ArrayLisy</item>
+        <item> Uml</item>
+    </string-array>
+    <string-array name="topic_description">
+        <item>An ArrayList is a resizable-array implementation of the Java List interface.
+            It has many methods used to control and search its contents. For example, the length of the ArrayList is
+            returned by its size() method, which is an integer value for the total number of elements in the list.</item>
+        <item>The Unified Modeling Language (UML) is a general-purpose, developmental, modeling language in the field of
+            software engineering, that is intended to provide a standard way to visualize the design of a system.</item>
+    </string-array>
+
+</resources>

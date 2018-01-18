@@ -26,8 +26,8 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
     private Context context;
     private DatabaseReference mDatabase;
 
-    public TaskAdapter(Context context, ArrayList<Task> list) {
-
+    public TaskAdapter(Context context, ArrayList<Task> list,DatabaseReference mDatabase) {
+        this.mDatabase=mDatabase;
         this.list = list;
         this.context = context;
     }
@@ -73,9 +73,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
         @Override
         public void onClick(View view) {
             String key = mTsk.getKey();
-            FirebaseDatabase.getInstance().getReference("Task")
-                    .child(key)
-                    .removeValue();
+            mDatabase.child(key).removeValue();
         }
     }
 
