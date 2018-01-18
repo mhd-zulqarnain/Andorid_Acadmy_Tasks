@@ -1,0 +1,4 @@
+#Sat Oct 28 11:55:59 PDT 2017
+base.0=D\:\\Work\\java\\android\\Practise\\FireBaseUpload\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\Work\\java\\android\\Practise\\FireBaseUpload\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

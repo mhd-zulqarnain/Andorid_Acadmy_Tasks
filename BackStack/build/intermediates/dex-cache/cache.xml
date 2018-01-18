@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b6f21dc9579cb51b05ebc01d9c2764442e6181c9">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_8dd9f504753344570c627921aed62bfc153ebd78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_2e47c3db6e06202af2a2cc87d591af6fac214848.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_236f8bd56597df94003d985efd7bf7fb1a5ac4d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_98710ad071751d6c000538afc083c46ac0a8b4ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_b9cebc084298aecf31c583440ce986b6e4fa0c20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_eb773ef3c7f4fb70ed1f995fb4187987a9b530eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_6f87c6521ee40e52c521fec217c988c63fd358c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zulup\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_cb6f07b815e069bf5f88d88fa3677c89e9b045db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_14edda7b9b4b016ff080e701d68fc33e6f999e26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47d158afabe64ea53c104d95d2976f57f89790be">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\instant-run_7d303c61ca8dc95bac1a9cb9fea28f358fa7bf48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_556424da728a1bc4ddf2e16bb24031bcb788ec53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_e1f566683edc116adf7ca0b5d8a64ee2af4acfdb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_9397008d61d78eefdff1ca83409a00ce8292f135.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_2c0093b0044720c50a11f5a6d2e3f0e26ad79d39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_7321873fd6c6bd57c5ff3ea5a724665aea58db3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_75205e058c024c5e008b4253befeb4d54defa900.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\BackStack\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="E:\Work\java\android\suuet\BackStack\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_e5bc5a858a202db63f40b58e088a09bbf29af111.jar" />
+    </item>
+
+</items>

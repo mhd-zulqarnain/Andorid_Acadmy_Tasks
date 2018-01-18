@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\666234535888fb94c812b383fb6af235b32fcc15\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="D:\Work\java\android\Practise\FireBaseUpload\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_185963b7359928e61816a4bf9d1d8f3f0bcd027f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Work\java\android\Practise\FireBaseUpload\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fa14647464091ed52b41eb4fade33304a6717ecd">
+        <dex dex="D:\Work\java\android\Practise\FireBaseUpload\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9666bb2fcec4f2393d2afd0d36583725cfc496d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\7f6c02b8c2723983894daa6d44d3d5eb691f9b99\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="D:\Work\java\android\Practise\FireBaseUpload\app\build\intermediates\pre-dexed\debug\classes_744f85ff0c8d8e2c345556b1d4a49a32820e6504.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\7f6c02b8c2723983894daa6d44d3d5eb691f9b99\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="D:\Work\java\android\Practise\FireBaseUpload\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_744f85ff0c8d8e2c345556b1d4a49a32820e6504\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\666234535888fb94c812b383fb6af235b32fcc15\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="D:\Work\java\android\Practise\FireBaseUpload\app\build\intermediates\pre-dexed\debug\classes_185963b7359928e61816a4bf9d1d8f3f0bcd027f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Work\java\android\Practise\FireBaseUpload\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Work\java\android\Practise\FireBaseUpload\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3fdc8f4f89d4c1ece4f32b58b2e7cc083893bba8\classes.dex" />
+    </item>
+
+</items>

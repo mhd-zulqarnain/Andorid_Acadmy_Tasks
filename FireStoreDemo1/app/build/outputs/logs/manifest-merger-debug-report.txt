@@ -1,0 +1,270 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\c201b5eb89e393cb55a3207e274b12b42b103a67\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\908c0d6fba2e7aa3b447712aaf5cc9d88cdadeed\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\95a8c330f289eae84531b7ebd0092cccdd117add\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Zul Qarnain\.android\build-cache\2bcde58e26b5c6f10a0ad9b48e524aa5ab6ab0a2\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\bde5173f037f3852a88b33552e554dd04f239fbd\output\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\553def5c1dbdcc01d4ddeb85c9ae7f03e74a3d4a\output\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\3d887442a9b46c6aa65bec263c6bf95eaaf6eb22\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\cfcb6eb8b1f9a65df4907bd0e340883f5307a276\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\ab67df1360ffe15fd8314f7656b6a6ead2788d6c\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\ccb21ca43ca7542a90fdb3118ea9d0838a008bc2\output\AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\6d575cfbb33f0c1ddea22b89ac75f72fcd44bd37\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\5f770a7d8c480d7fa71c22a870d42cc46e0563f6\output\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\8c8e92e1b4d489fb79b14fe0b58d5fadd043c9f8\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\c4f46ce836aa0e898f23499cdc888753c53aa99e\output\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\06e3d5cce520526e946b5aac21f548b16edbd186\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\9f29b7a13c0ed47e727cef33899395e5a506e2de\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\2ea9ea95434b535ff30ea75cad4bcb5a4a60b894\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\613ad43f30a1e6b4533e63a133aef4ff9f0069a2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\1fd1e3b9630be88f3eb49df84d040cc5d8d51b87\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\cba778028599d69459e78f995026aefb292a9e67\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\1bf70b6ccf71cfe8e34e88a7a9a1683ebf7a04fa\output\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\7118bd389a044649e9afef2757034ec272252a6d\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\f80cde80fcd20f9feed23c832a48e4852558dac9\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\a92ef5711efc5ed225ceb2eeed882cf4020e8482\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\14847e363c16dd4c3cfae5c59acf140e275306a6\output\AndroidManifest.xml:5:5-20
+	android:label
+		ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:11:9-40
+activity#qee.zee.com.firestoredemo1.MainActivity
+ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\c201b5eb89e393cb55a3207e274b12b42b103a67\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\908c0d6fba2e7aa3b447712aaf5cc9d88cdadeed\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\95a8c330f289eae84531b7ebd0092cccdd117add\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Zul Qarnain\.android\build-cache\2bcde58e26b5c6f10a0ad9b48e524aa5ab6ab0a2\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\bde5173f037f3852a88b33552e554dd04f239fbd\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\553def5c1dbdcc01d4ddeb85c9ae7f03e74a3d4a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\3d887442a9b46c6aa65bec263c6bf95eaaf6eb22\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\cfcb6eb8b1f9a65df4907bd0e340883f5307a276\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-firestore:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\c802c65958e0e44ec6651b8f22d90616ea6de41e\output\AndroidManifest.xml:6:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\d341c43c7d4cc25eddbcd5ff77d0c1a437916343\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\ab67df1360ffe15fd8314f7656b6a6ead2788d6c\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\ccb21ca43ca7542a90fdb3118ea9d0838a008bc2\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\6d575cfbb33f0c1ddea22b89ac75f72fcd44bd37\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\5f770a7d8c480d7fa71c22a870d42cc46e0563f6\output\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\8c8e92e1b4d489fb79b14fe0b58d5fadd043c9f8\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\c4f46ce836aa0e898f23499cdc888753c53aa99e\output\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\06e3d5cce520526e946b5aac21f548b16edbd186\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\9f29b7a13c0ed47e727cef33899395e5a506e2de\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\2ea9ea95434b535ff30ea75cad4bcb5a4a60b894\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\613ad43f30a1e6b4533e63a133aef4ff9f0069a2\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\1fd1e3b9630be88f3eb49df84d040cc5d8d51b87\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\cba778028599d69459e78f995026aefb292a9e67\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\1bf70b6ccf71cfe8e34e88a7a9a1683ebf7a04fa\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\7118bd389a044649e9afef2757034ec272252a6d\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\f80cde80fcd20f9feed23c832a48e4852558dac9\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\a92ef5711efc5ed225ceb2eeed882cf4020e8482\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\14847e363c16dd4c3cfae5c59acf140e275306a6\output\AndroidManifest.xml:4:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\c201b5eb89e393cb55a3207e274b12b42b103a67\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\java\android\Practise\FireStoreDemo1\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\c201b5eb89e393cb55a3207e274b12b42b103a67\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\908c0d6fba2e7aa3b447712aaf5cc9d88cdadeed\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\95a8c330f289eae84531b7ebd0092cccdd117add\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\d341c43c7d4cc25eddbcd5ff77d0c1a437916343\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\9f29b7a13c0ed47e727cef33899395e5a506e2de\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\2ea9ea95434b535ff30ea75cad4bcb5a4a60b894\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\613ad43f30a1e6b4533e63a133aef4ff9f0069a2\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\1fd1e3b9630be88f3eb49df84d040cc5d8d51b87\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\cba778028599d69459e78f995026aefb292a9e67\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\1bf70b6ccf71cfe8e34e88a7a9a1683ebf7a04fa\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\c201b5eb89e393cb55a3207e274b12b42b103a67\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Zul Qarnain\.android\build-cache\c201b5eb89e393cb55a3207e274b12b42b103a67\output\AndroidManifest.xml:26:9-47
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\bde5173f037f3852a88b33552e554dd04f239fbd\output\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\bde5173f037f3852a88b33552e554dd04f239fbd\output\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\bde5173f037f3852a88b33552e554dd04f239fbd\output\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\bde5173f037f3852a88b33552e554dd04f239fbd\output\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\bde5173f037f3852a88b33552e554dd04f239fbd\output\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\bde5173f037f3852a88b33552e554dd04f239fbd\output\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\bde5173f037f3852a88b33552e554dd04f239fbd\output\AndroidManifest.xml:24:13-85
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\553def5c1dbdcc01d4ddeb85c9ae7f03e74a3d4a\output\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\553def5c1dbdcc01d4ddeb85c9ae7f03e74a3d4a\output\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\553def5c1dbdcc01d4ddeb85c9ae7f03e74a3d4a\output\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\553def5c1dbdcc01d4ddeb85c9ae7f03e74a3d4a\output\AndroidManifest.xml:24:13-79
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\ccb21ca43ca7542a90fdb3118ea9d0838a008bc2\output\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\ccb21ca43ca7542a90fdb3118ea9d0838a008bc2\output\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\ccb21ca43ca7542a90fdb3118ea9d0838a008bc2\output\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:25:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\ccb21ca43ca7542a90fdb3118ea9d0838a008bc2\output\AndroidManifest.xml:28:9-32:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:29:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:33:9-41:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:37:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:34:13-100
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:38:13-40:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:39:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\ccb21ca43ca7542a90fdb3118ea9d0838a008bc2\output\AndroidManifest.xml:34:9-37:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:44:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:47:9-51:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:50:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\AndroidManifest.xml:48:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:36:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:51:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\5f770a7d8c480d7fa71c22a870d42cc46e0563f6\output\AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\5f770a7d8c480d7fa71c22a870d42cc46e0563f6\output\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\5f770a7d8c480d7fa71c22a870d42cc46e0563f6\output\AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\5f770a7d8c480d7fa71c22a870d42cc46e0563f6\output\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\5f770a7d8c480d7fa71c22a870d42cc46e0563f6\output\AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\06e3d5cce520526e946b5aac21f548b16edbd186\output\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\06e3d5cce520526e946b5aac21f548b16edbd186\output\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Zul Qarnain\.android\build-cache\06e3d5cce520526e946b5aac21f548b16edbd186\output\AndroidManifest.xml:24:13-58

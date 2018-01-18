@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\bde5173f037f3852a88b33552e554dd04f239fbd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c5bc72ad3250d065128d1d7514279be703e57bd0">
+        <dex dex="D:\Work\java\android\Practise\FireStoreDemo1\app\build\intermediates\pre-dexed\debug\classes_c8aef36339796ae671954d59e3b5b4ca9007224f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\c802c65958e0e44ec6651b8f22d90616ea6de41e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8c5a80c80167d5e6bfe84309f0787a769fd23f61">
+        <dex dex="D:\Work\java\android\Practise\FireStoreDemo1\app\build\intermediates\pre-dexed\debug\classes_fd7a8934dc62bfb7a8031c4f31967bc8d791ef30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\553def5c1dbdcc01d4ddeb85c9ae7f03e74a3d4a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
+        <dex dex="D:\Work\java\android\Practise\FireStoreDemo1\app\build\intermediates\pre-dexed\debug\classes_45a7e4aa40889d725c2e962e13a0a699d780ddb8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.7.2\20f6463eb19ac61960c5d91a094c2f4f0727dc2e\okhttp-2.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="20f6463eb19ac61960c5d91a094c2f4f0727dc2e">
+        <dex dex="D:\Work\java\android\Practise\FireStoreDemo1\app\build\intermediates\pre-dexed\debug\okhttp-2.7.2_a1930bcc98f94ac88770d9032632ca809a12fd73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\5f770a7d8c480d7fa71c22a870d42cc46e0563f6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e6aeff19a2ce1eb896557be73cb9ceb56f8d1cf3">
+        <dex dex="D:\Work\java\android\Practise\FireStoreDemo1\app\build\intermediates\pre-dexed\debug\classes_ea37b71c45a1b4d6605bfb6931a5a5ce1b87bde2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\ccb21ca43ca7542a90fdb3118ea9d0838a008bc2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="122de0d704f76d2bb5cb9db66e00fe90a0a41e78">
+        <dex dex="D:\Work\java\android\Practise\FireStoreDemo1\app\build\intermediates\pre-dexed\debug\classes_936d729a7bca898bc4a0c7a0eccb5209afd953e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\06e3d5cce520526e946b5aac21f548b16edbd186\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="D:\Work\java\android\Practise\FireStoreDemo1\app\build\intermediates\pre-dexed\debug\classes_5e1c1167e48a93a02b5cad403532d9aa12df75f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\b297bf9a6d6d91dafd6e1d07b880faddf08657ce\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="42c9659c973e311ffdb645ed057e5053e0ab5c78">
+        <dex dex="D:\Work\java\android\Practise\FireStoreDemo1\app\build\intermediates\pre-dexed\debug\classes_17b82d94d7d3a7d7b230a0ef54686b5e0e716f53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\1c0d3ccfa1772033587b92496acd2bcbf86d2c38\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="264ad23f9752aabecfa41115c52a25a023a08839">
+        <dex dex="D:\Work\java\android\Practise\FireStoreDemo1\app\build\intermediates\pre-dexed\debug\classes_be94c05ffd383538f5f768f91c3f7f9df03d9f34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\c4f46ce836aa0e898f23499cdc888753c53aa99e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="D:\Work\java\android\Practise\FireStoreDemo1\app\build\intermediates\pre-dexed\debug\classes_6ec36dc0345f92c8a716fcd9e8feaac4fcba8ee7.jar" />
+    </item>
+
+</items>

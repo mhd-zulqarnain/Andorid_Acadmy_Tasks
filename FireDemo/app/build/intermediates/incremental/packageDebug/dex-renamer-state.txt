@@ -1,0 +1,7 @@
+#Sun Oct 29 21:53:25 PDT 2017
+base.0=D\:\\Work\\java\\android\\Suuet\\FireDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_163dbb1c3dc626049dde2d91dc478515a5844dc4
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Work\\java\\android\\Suuet\\FireDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_067943d786de7ee3305559fd5908a3524f1b1f86\\classes.dex
+base.1=D\:\\Work\\java\\android\\Suuet\\FireDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_067943d786de7ee3305559fd5908a3524f1b1f86
+file.0=D\:\\Work\\java\\android\\Suuet\\FireDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_163dbb1c3dc626049dde2d91dc478515a5844dc4\\classes.dex
