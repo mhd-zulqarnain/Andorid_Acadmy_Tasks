@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\2badb60f08f925ac17246298df089d8dbe22ac1c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="D:\Work\java\android\Practise\PushNotification\app\build\intermediates\pre-dexed\debug\classes_2f6c187e7b694506c699c5fcfcff420f7121df3b.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,7 @@
+#Sun Jul 30 04:15:56 PDT 2017
+base.0=D\:\\Work\\java\\android\\Suuet\\TodoAdapterImage\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c56430ddfaa04152e73deaf632831ab04983df7e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\Work\\java\\android\\Suuet\\TodoAdapterImage\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b3496455ac24a1e2c18db0ab2e4b8580bc80303d\\classes.dex
+base.1=D\:\\Work\\java\\android\\Suuet\\TodoAdapterImage\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b3496455ac24a1e2c18db0ab2e4b8580bc80303d
+file.0=D\:\\Work\\java\\android\\Suuet\\TodoAdapterImage\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c56430ddfaa04152e73deaf632831ab04983df7e\\classes.dex

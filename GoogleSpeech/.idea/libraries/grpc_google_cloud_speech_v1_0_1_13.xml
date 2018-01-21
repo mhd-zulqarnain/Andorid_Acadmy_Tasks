@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="grpc-google-cloud-speech-v1-0.1.13">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/grpc-google-cloud-speech-v1/0.1.13/2d1808809218f8880f41c883f95cf612097f8e4e/grpc-google-cloud-speech-v1-0.1.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/grpc-google-cloud-speech-v1/0.1.13/1a108f8d15cd449d955ea921ce42f4971fff51b3/grpc-google-cloud-speech-v1-0.1.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

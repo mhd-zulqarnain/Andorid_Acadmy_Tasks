@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zul Qarnain\.android\build-cache\4599766d3afc489671c82e1175b6a8f6dde53a2b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="97a83e6397160ac73bcea710022b1048437e5771">
+        <dex dex="D:\Work\java\android\Practise\WebView\app\build\intermediates\pre-dexed\debug\classes_8cf1f8c433aa9dafbb021d62178b5f611b649b7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\java\android\Practise\WebView\app\libs\cordova-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b1666ae2052034c2181c8088fe71d29e3f577a9a">
+        <dex dex="D:\Work\java\android\Practise\WebView\app\build\intermediates\pre-dexed\debug\cordova-4.0.0_a4941e67e147cf26c428d6211feac313faa65d08.jar" />
+    </item>
+
+</items>

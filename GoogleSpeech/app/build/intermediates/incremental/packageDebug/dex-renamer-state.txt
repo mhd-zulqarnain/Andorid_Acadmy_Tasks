@@ -1,0 +1,7 @@
+#Thu Oct 26 16:04:13 PDT 2017
+base.0=D\:\\Work\\java\\android\\Practise\\GoogleSpeech\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5f09ff381ed0cbd791011972663d2b511470de31
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\Work\\java\\android\\Practise\\GoogleSpeech\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_44311f18277ace1ae47690d4b7e39e9d8ec355ee\\classes.dex
+base.1=D\:\\Work\\java\\android\\Practise\\GoogleSpeech\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_44311f18277ace1ae47690d4b7e39e9d8ec355ee
+file.0=D\:\\Work\\java\\android\\Practise\\GoogleSpeech\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5f09ff381ed0cbd791011972663d2b511470de31\\classes.dex

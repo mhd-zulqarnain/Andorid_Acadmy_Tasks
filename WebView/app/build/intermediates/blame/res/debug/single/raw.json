@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Work\\java\\android\\Practise\\WebView\\app\\build\\intermediates\\res\\merged\\debug\\raw\\messaging_api.js",
+        "source": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\raw\\messaging_api.js"
+    },
+    {
+        "merged": "D:\\Work\\java\\android\\Practise\\WebView\\app\\build\\intermediates\\res\\merged\\debug\\raw\\xwalk.pak",
+        "source": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\raw\\xwalk.pak"
+    },
+    {
+        "merged": "D:\\Work\\java\\android\\Practise\\WebView\\app\\build\\intermediates\\res\\merged\\debug\\raw\\launch_screen_api.js",
+        "source": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\raw\\launch_screen_api.js"
+    },
+    {
+        "merged": "D:\\Work\\java\\android\\Practise\\WebView\\app\\build\\intermediates\\res\\merged\\debug\\raw\\icudtl.dat",
+        "source": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\raw\\icudtl.dat"
+    },
+    {
+        "merged": "D:\\Work\\java\\android\\Practise\\WebView\\app\\build\\intermediates\\res\\merged\\debug\\raw\\presentation_api.js",
+        "source": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\raw\\presentation_api.js"
+    },
+    {
+        "merged": "D:\\Work\\java\\android\\Practise\\WebView\\app\\build\\intermediates\\res\\merged\\debug\\raw\\device_capabilities_api.js",
+        "source": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\raw\\device_capabilities_api.js"
+    },
+    {
+        "merged": "D:\\Work\\java\\android\\Practise\\WebView\\app\\build\\intermediates\\res\\merged\\debug\\raw\\contacts_api.js",
+        "source": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\raw\\contacts_api.js"
+    }
+]

@@ -1,0 +1,1432 @@
+[
+    {
+        "outputFile": "D:\\Work\\java\\android\\Practise\\WebView\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 103,
+                        "endOffset": 154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 159,
+                    "endColumn": 107,
+                    "endOffset": 262
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 159,
+                        "endColumn": 107,
+                        "endOffset": 262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 267,
+                    "endColumn": 122,
+                    "endOffset": 385
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 267,
+                        "endColumn": 122,
+                        "endOffset": 385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 390,
+                    "endColumn": 99,
+                    "endOffset": 485
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 390,
+                        "endColumn": 99,
+                        "endOffset": 485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 490,
+                    "endColumn": 107,
+                    "endOffset": 593
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 490,
+                        "endColumn": 107,
+                        "endOffset": 593
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 598,
+                    "endColumn": 83,
+                    "endOffset": 677
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 598,
+                        "endColumn": 83,
+                        "endOffset": 677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 682,
+                    "endColumn": 99,
+                    "endOffset": 777
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 682,
+                        "endColumn": 99,
+                        "endOffset": 777
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 782,
+                    "endColumn": 114,
+                    "endOffset": 892
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 782,
+                        "endColumn": 114,
+                        "endOffset": 892
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 897,
+                    "endColumn": 76,
+                    "endOffset": 969
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 897,
+                        "endColumn": 76,
+                        "endOffset": 969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 974,
+                    "endColumn": 75,
+                    "endOffset": 1045
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 974,
+                        "endColumn": 75,
+                        "endOffset": 1045
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1050,
+                    "endColumn": 81,
+                    "endOffset": 1127
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1050,
+                        "endColumn": 81,
+                        "endOffset": 1127
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1132,
+                    "endColumn": 102,
+                    "endOffset": 1230
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1132,
+                        "endColumn": 102,
+                        "endOffset": 1230
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1235,
+                    "endColumn": 103,
+                    "endOffset": 1334
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1235,
+                        "endColumn": 103,
+                        "endOffset": 1334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1339,
+                    "endColumn": 98,
+                    "endOffset": 1433
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1339,
+                        "endColumn": 98,
+                        "endOffset": 1433
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1438,
+                    "endColumn": 104,
+                    "endOffset": 1538
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1438,
+                        "endColumn": 104,
+                        "endOffset": 1538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1543,
+                    "endColumn": 102,
+                    "endOffset": 1641
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1543,
+                        "endColumn": 102,
+                        "endOffset": 1641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1646,
+                    "endColumn": 103,
+                    "endOffset": 1745
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1646,
+                        "endColumn": 103,
+                        "endOffset": 1745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1750,
+                    "endColumn": 118,
+                    "endOffset": 1864
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1750,
+                        "endColumn": 118,
+                        "endOffset": 1864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1869,
+                    "endColumn": 99,
+                    "endOffset": 1964
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1869,
+                        "endColumn": 99,
+                        "endOffset": 1964
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1969,
+                    "endColumn": 67,
+                    "endOffset": 2032
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 1232,
+                        "endColumn": 63,
+                        "endOffset": 1295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2037,
+                    "endColumn": 65,
+                    "endOffset": 2098
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 0,
+                        "startOffset": 1473,
+                        "endColumn": 61,
+                        "endOffset": 1534
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2103,
+                    "endColumn": 65,
+                    "endOffset": 2164
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 0,
+                        "startOffset": 1296,
+                        "endColumn": 61,
+                        "endOffset": 1357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2169,
+                    "endColumn": 69,
+                    "endOffset": 2234
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 0,
+                        "startOffset": 2376,
+                        "endColumn": 65,
+                        "endOffset": 2441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2239,
+                    "endColumn": 69,
+                    "endOffset": 2304
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 0,
+                        "startOffset": 2442,
+                        "endColumn": 65,
+                        "endOffset": 2507
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2309,
+                    "endColumn": 66,
+                    "endOffset": 2371
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 0,
+                        "startOffset": 2025,
+                        "endColumn": 62,
+                        "endOffset": 2087
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2376,
+                    "endColumn": 65,
+                    "endOffset": 2437
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 0,
+                        "startOffset": 1761,
+                        "endColumn": 61,
+                        "endOffset": 1822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2442,
+                    "endColumn": 73,
+                    "endOffset": 2511
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 0,
+                        "startOffset": 1955,
+                        "endColumn": 69,
+                        "endOffset": 2024
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2516,
+                    "endColumn": 69,
+                    "endOffset": 2581
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 0,
+                        "startOffset": 1823,
+                        "endColumn": 65,
+                        "endOffset": 1888
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2586,
+                    "endColumn": 69,
+                    "endOffset": 2651
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 0,
+                        "startOffset": 1889,
+                        "endColumn": 65,
+                        "endOffset": 1954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2656,
+                    "endColumn": 51,
+                    "endOffset": 2703
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 0,
+                        "startOffset": 110,
+                        "endColumn": 47,
+                        "endOffset": 157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2708,
+                    "endColumn": 61,
+                    "endOffset": 2765
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 0,
+                        "startOffset": 158,
+                        "endColumn": 57,
+                        "endOffset": 215
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2770,
+                    "endColumn": 88,
+                    "endOffset": 2854
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 0,
+                        "startOffset": 2695,
+                        "endColumn": 84,
+                        "endOffset": 2779
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2859,
+                    "endColumn": 61,
+                    "endOffset": 2916
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 1024,
+                        "endColumn": 57,
+                        "endOffset": 1081
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2921,
+                    "endColumn": 59,
+                    "endOffset": 2976
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 788,
+                        "endColumn": 55,
+                        "endOffset": 843
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2981,
+                    "endColumn": 63,
+                    "endOffset": 3040
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 552,
+                        "endColumn": 59,
+                        "endOffset": 611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3045,
+                    "endColumn": 59,
+                    "endOffset": 3100
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 732,
+                        "endColumn": 55,
+                        "endOffset": 787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3105,
+                    "endColumn": 61,
+                    "endOffset": 3162
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 844,
+                        "endColumn": 57,
+                        "endOffset": 901
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3167,
+                    "endColumn": 65,
+                    "endOffset": 3228
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 902,
+                        "endColumn": 61,
+                        "endOffset": 963
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3233,
+                    "endColumn": 59,
+                    "endOffset": 3288
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 283,
+                        "endColumn": 55,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 3293,
+                    "endColumn": 57,
+                    "endOffset": 3346
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 678,
+                        "endColumn": 53,
+                        "endOffset": 731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 3351,
+                    "endColumn": 57,
+                    "endOffset": 3404
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 498,
+                        "endColumn": 53,
+                        "endOffset": 551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3409,
+                    "endColumn": 61,
+                    "endOffset": 3466
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 1082,
+                        "endColumn": 57,
+                        "endOffset": 1139
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3471,
+                    "endColumn": 63,
+                    "endOffset": 3530
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 964,
+                        "endColumn": 59,
+                        "endOffset": 1023
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3535,
+                    "endColumn": 69,
+                    "endOffset": 3600
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 612,
+                        "endColumn": 65,
+                        "endOffset": 677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3605,
+                    "endColumn": 50,
+                    "endOffset": 3651
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 339,
+                        "endColumn": 46,
+                        "endOffset": 385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3656,
+                    "endColumn": 64,
+                    "endOffset": 3716
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 386,
+                        "endColumn": 60,
+                        "endOffset": 446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3721,
+                    "endColumn": 54,
+                    "endOffset": 3771
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 447,
+                        "endColumn": 50,
+                        "endOffset": 497
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3776,
+                    "endColumn": 95,
+                    "endOffset": 3867
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 1140,
+                        "endColumn": 91,
+                        "endOffset": 1231
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3872,
+                    "endColumn": 60,
+                    "endOffset": 3928
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 0,
+                        "startOffset": 2638,
+                        "endColumn": 56,
+                        "endOffset": 2694
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3933,
+                    "endColumn": 73,
+                    "endOffset": 4002
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 0,
+                        "startOffset": 2508,
+                        "endColumn": 69,
+                        "endOffset": 2577
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 4007,
+                    "endColumn": 56,
+                    "endOffset": 4059
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 0,
+                        "startOffset": 1358,
+                        "endColumn": 52,
+                        "endOffset": 1410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 4064,
+                    "endColumn": 63,
+                    "endOffset": 4123
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 0,
+                        "startOffset": 2578,
+                        "endColumn": 59,
+                        "endOffset": 2637
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 4128,
+                    "endColumn": 77,
+                    "endOffset": 4201
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 0,
+                        "startOffset": 2302,
+                        "endColumn": 73,
+                        "endOffset": 2375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 4206,
+                    "endColumn": 102,
+                    "endOffset": 4304
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 0,
+                        "startOffset": 110,
+                        "endColumn": 98,
+                        "endOffset": 208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 4309,
+                    "endColumn": 58,
+                    "endOffset": 4363
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 519,
+                        "endColumn": 54,
+                        "endOffset": 573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 4368,
+                    "endColumn": 143,
+                    "endOffset": 4507
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 139,
+                        "endOffset": 424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4512,
+                    "endColumn": 97,
+                    "endOffset": 4605
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 425,
+                        "endColumn": 93,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 4610,
+                    "endColumn": 72,
+                    "endOffset": 4678
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 216,
+                        "endColumn": 68,
+                        "endOffset": 284
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 4683,
+                    "endColumn": 70,
+                    "endOffset": 4749
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 574,
+                        "endColumn": 66,
+                        "endOffset": 640
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 4754,
+                    "endColumn": 65,
+                    "endOffset": 4815
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 0,
+                        "startOffset": 1411,
+                        "endColumn": 61,
+                        "endOffset": 1472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 4820,
+                    "endColumn": 77,
+                    "endOffset": 4893
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 0,
+                        "startOffset": 209,
+                        "endColumn": 73,
+                        "endOffset": 282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 4898,
+                    "endColumn": 110,
+                    "endOffset": 5004
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 0,
+                        "startOffset": 2780,
+                        "endColumn": 106,
+                        "endOffset": 2886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 5009,
+                    "endColumn": 75,
+                    "endOffset": 5080
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 908,
+                        "endColumn": 71,
+                        "endOffset": 979
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 5085,
+                    "endColumn": 115,
+                    "endOffset": 5196
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 796,
+                        "endColumn": 111,
+                        "endOffset": 907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 5201,
+                    "endColumn": 69,
+                    "endOffset": 5266
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 641,
+                        "endColumn": 65,
+                        "endOffset": 706
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 5271,
+                    "endColumn": 92,
+                    "endOffset": 5359
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_content_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 707,
+                        "endColumn": 88,
+                        "endOffset": 795
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 5364,
+                    "endColumn": 81,
+                    "endOffset": 5441
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1969,
+                        "endColumn": 81,
+                        "endOffset": 2046
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 5446,
+                    "endColumn": 100,
+                    "endOffset": 5542
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\c201b5eb89e393cb55a3207e274b12b42b103a67\\output\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2051,
+                        "endColumn": 100,
+                        "endOffset": 2147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 5547,
+                    "endColumn": 56,
+                    "endOffset": 5599
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 0,
+                        "startOffset": 1595,
+                        "endColumn": 52,
+                        "endOffset": 1647
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 5604,
+                    "endColumn": 72,
+                    "endOffset": 5672
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 0,
+                        "startOffset": 2088,
+                        "endColumn": 68,
+                        "endOffset": 2156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 5677,
+                    "endColumn": 74,
+                    "endOffset": 5747
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 0,
+                        "startOffset": 2157,
+                        "endColumn": 70,
+                        "endOffset": 2227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 5752,
+                    "endColumn": 56,
+                    "endOffset": 5804
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 0,
+                        "startOffset": 1648,
+                        "endColumn": 52,
+                        "endOffset": 1700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 5809,
+                    "endColumn": 77,
+                    "endOffset": 5882
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 0,
+                        "startOffset": 2228,
+                        "endColumn": 73,
+                        "endOffset": 2301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 5887,
+                    "endColumn": 63,
+                    "endOffset": 5946
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 0,
+                        "startOffset": 1701,
+                        "endColumn": 59,
+                        "endOffset": 1760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 5951,
+                    "endColumn": 63,
+                    "endOffset": 6010
+                },
+                "from": {
+                    "file": "C:\\Users\\Zul Qarnain\\.android\\build-cache\\4599766d3afc489671c82e1175b6a8f6dde53a2b\\output\\res\\values-en-rGB\\android_ui_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 0,
+                        "startOffset": 1535,
+                        "endColumn": 59,
+                        "endOffset": 1594
+                    }
+                }
+            }
+        ]
+    }
+]

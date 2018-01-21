@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3fc5bb10deeb55e4b448bae34eb9a0b879605573">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_4d9c643b8378b11367574b40ba691db007bf5a26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_3089a6a56f3fd9c1e7eab69b43bb4a69fae35c1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_0aad0c1af137b2717ea41a4399c30c2a2e617874.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_6129f6f54a06286171d7e8a9d8bb19e89c23e0bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_26333db91505709fa0f04e18fb65e966cf4073c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4c351e8aa6024fa5f172f0dcf8ea8710ef5511b1">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\instant-run_938f3b66f6857547b7a85f1a316d26f618ff8012.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_a4ff9db3b313a1f241f251246af99f8dee57c255.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zulup\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_cb6f07b815e069bf5f88d88fa3677c89e9b045db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_29e148886c14224fd76327d9c4f1dbd8f1b34c2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_edc1f683034e84edddd5137bf5eda9d1a2971834.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_427d541e03ff26a7ac9f3d3cd5f48ecf65961c76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_ded49eba6c35ad19f9d8abbc1839914eb54e5131.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_df773598e5d0d4a58e33794559fa03fe57295aeb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_78ffc3196394432cd86d4db96b9537b48b4aaeec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_20e49ec63e40635b58aa2751209e6b37e7ac21d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_24a438d3e9f2141a1e8836b694a2fe9dc26e587e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_16bf625827806bc2abb23cca681578fcf1904db5.jar" />
+    </item>
+
+</items>

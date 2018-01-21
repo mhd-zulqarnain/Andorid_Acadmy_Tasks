@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="16"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="1504878741267443"
+    token="-1923747263320549070"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="251" />
+    <task
+        name="instant-run-dex"
+        duration="17" />
+    <task
+        name="instant-run-transform"
+        duration="49" />
+    <task
+        name="verifier"
+        duration="6" />
+
+    <artifact
+        location="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="1504664090298755"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="E:\Work\java\android\suuet\TodoAdapter\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="1504878741267443"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="E:\Work\java\android\suuet\TodoAdapter\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

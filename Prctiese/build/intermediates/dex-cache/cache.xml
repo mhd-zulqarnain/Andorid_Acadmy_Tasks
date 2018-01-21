@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_208fb2865564a4f282e8eefb6fb5bd38aa277e0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_7935fe5aa172746088112b6b745072008f95abfd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_522b31c8df5e90dd1c498fd874c18f0dcac88b9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_a482ab745ad7e1183a40614f31a7aef193a36cac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_fc828c9902af64eed91d1540f5222fbde5242fb4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_e7866ea5ee6265b79dc668b4616be0cd07f3c2db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="801ebf5dce9608233bc6f3fceed5345c5743bb92">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e45159e717cf5e6cdfd59dd5588368e8d3e7938a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_4a11569ece72b20b23fdee7b7026a3372cb6da82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_e0fda009f8ebca0e91e822bd1f15a88a8b4db7de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_bce3d365a93b159f0b159aa6680eeb3a9c82edc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fbcc12d3dede9b7a52183efa97ba2b1407141773">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4e3675f080863e0fc89e7ae7a47bcf9d6ec0c25f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zulup\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_cb6f07b815e069bf5f88d88fa3677c89e9b045db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ae422854334bc39bc518cdd3ceeed1678ca2f6ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_b8482da0f47bb1d1a6efd06cd9ff626b5a2dc810\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_20ce89847e4e109b3b20d0f981bf91de9b36964e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_f629aba8ff5072f0b50567c298f25bacbba5cbf0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Work\java\android\suuet\Prctiese\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_d6ee319e1b9c111d169453b1790af96c117f5ccc\classes.dex" />
+    </item>
+
+</items>

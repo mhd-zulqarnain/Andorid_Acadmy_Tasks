@@ -1,0 +1,4 @@
+#Thu Oct 26 15:54:42 PDT 2017
+base.0=D\:\\Work\\java\\android\\Practise\\GoogleSpeech\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5
+renamed.0=classes.dex
+file.0=D\:\\Work\\java\\android\\Practise\\GoogleSpeech\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5\\classes.dex

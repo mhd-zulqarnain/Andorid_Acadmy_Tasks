@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="19"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="507561176965129"
+    token="2817660977871548726"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="349" />
+    <task
+        name="instant-run-dex"
+        duration="27" />
+    <task
+        name="instant-run-transform"
+        duration="53" />
+    <task
+        name="verifier"
+        duration="11" />
+
+    <artifact
+        location="D:\OneDrive - Higher Education Commission\Work\java\android\Suuet\SqliteTask\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="507131954151216"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\OneDrive - Higher Education Commission\Work\java\android\Suuet\SqliteTask\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="507198372577766"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\OneDrive - Higher Education Commission\Work\java\android\Suuet\SqliteTask\app\build\intermediates\builds\debug\507198372577766\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="507254554423081"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\OneDrive - Higher Education Commission\Work\java\android\Suuet\SqliteTask\app\build\intermediates\builds\debug\507254554423081\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="507335294035803"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\OneDrive - Higher Education Commission\Work\java\android\Suuet\SqliteTask\app\build\intermediates\builds\debug\507335294035803\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="507407424262080"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\OneDrive - Higher Education Commission\Work\java\android\Suuet\SqliteTask\app\build\intermediates\builds\debug\507407424262080\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="507561176965129"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\OneDrive - Higher Education Commission\Work\java\android\Suuet\SqliteTask\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

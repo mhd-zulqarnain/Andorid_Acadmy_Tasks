@@ -1,0 +1,7 @@
+#Sun Jul 09 11:41:24 PKT 2017
+base.0=E\:\\Work\\java\\android\\suuet\\Prctiese\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e45159e717cf5e6cdfd59dd5588368e8d3e7938a
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\Work\\java\\android\\suuet\\Prctiese\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4e3675f080863e0fc89e7ae7a47bcf9d6ec0c25f\\classes.dex
+base.1=E\:\\Work\\java\\android\\suuet\\Prctiese\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4e3675f080863e0fc89e7ae7a47bcf9d6ec0c25f
+file.0=E\:\\Work\\java\\android\\suuet\\Prctiese\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e45159e717cf5e6cdfd59dd5588368e8d3e7938a\\classes.dex
