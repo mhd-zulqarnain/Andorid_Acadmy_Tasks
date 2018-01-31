@@ -47,7 +47,6 @@ public class StudentAdapter extends RecyclerSwipeAdapter<StudentAdapter.SwipView
         viewHolder.mstd.setText(student.getName());
 
         viewHolder.swipeLayout.setShowMode(SwipeLayout.ShowMode.PullOut);
-        //left
 //        viewHolder.swipeLayout.addDrag(SwipeLayout.DragEdge.Left,viewHolder.swipeLayout.findViewById(R.id.view_right_left));
         viewHolder.swipeLayout.addDrag(SwipeLayout.DragEdge.Right, viewHolder.swipeLayout.findViewById(R.id.view_left_right));
 
@@ -101,20 +100,6 @@ public class StudentAdapter extends RecyclerSwipeAdapter<StudentAdapter.SwipView
 
             }
         });
-      /*  viewHolder.mUndo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(view.getContext(), "Clicked on undo " , Toast.LENGTH_SHORT).show();
-
-            }
-        });
-        viewHolder.mEdit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(view.getContext(), "Clicked on edit ", Toast.LENGTH_SHORT).show();
-
-            }
-        });*/
     }
 
     @Override
