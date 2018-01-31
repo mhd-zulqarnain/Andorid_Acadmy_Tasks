@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView tv;
     private ProgressBar progressBar;
     private final int CAMREQ = 100;
-    private final String API_BASE_URL = "https://vision.googleapis.com/v1/images:annotate?key=?";
+    private final String API_BASE_URL = "https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCjccL_7ff4DX6leI7cRC2c6fkzZcuaItg";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
