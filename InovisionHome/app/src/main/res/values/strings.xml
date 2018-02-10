@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">InovisionHome</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="forget_pass">Forget Password?</string>
+    <string name="text_login">Login</string>
+    <string name="sign_up_msg">Don’t have an account?</string>
+    <string name="sign_up"> <u>Sign Up</u></string>
+    <string name="service_txt"> <b>Service</b></string>
+</resources>
