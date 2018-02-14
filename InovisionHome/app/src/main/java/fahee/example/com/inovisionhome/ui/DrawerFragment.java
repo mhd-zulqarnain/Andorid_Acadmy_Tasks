@@ -1,4 +1,4 @@
-package fahee.example.com.inovisionhome;
+package fahee.example.com.inovisionhome.ui;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import fahee.example.com.inovisionhome.R;
 
 /**
  * Created by Zul Qarnain on 2/10/2018.

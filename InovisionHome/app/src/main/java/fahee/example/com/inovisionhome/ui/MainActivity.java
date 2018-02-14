@@ -1,5 +1,6 @@
 package fahee.example.com.inovisionhome.ui;
 
+import android.content.Intent;
 import android.os.Message;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -88,6 +89,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void lanumchLogin() {
         Messege.message(getApplicationContext(),"launched");
+        Intent intent = new Intent(MainActivity.this,LoginActivity.class);
+        startActivity(intent);
 
     }
 

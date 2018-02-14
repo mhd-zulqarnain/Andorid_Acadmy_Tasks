@@ -1,4 +1,4 @@
-package fahee.example.com.inovisionhome;
+package fahee.example.com.inovisionhome.ui;
 
 import android.os.Bundle;
 import android.os.Message;
@@ -16,6 +16,7 @@ import android.widget.ImageView;
 
 import java.util.ArrayList;
 
+import fahee.example.com.inovisionhome.R;
 import fahee.example.com.inovisionhome.adapter.ServiceAdapter;
 import fahee.example.com.inovisionhome.util.Messege;
 

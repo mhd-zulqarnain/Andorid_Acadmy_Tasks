@@ -41,7 +41,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:text="@string/sign_up"
-            android:textSize="11sp" />
+            android:textSize="11sp"
+            android:onClick="signup"/>
     </LinearLayout>
 
     <LinearLayout
@@ -104,7 +105,8 @@
             android:text="@string/text_login"
             android:textAllCaps="false"
             android:textColor="#fff"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:onClick="login"/>
     </LinearLayout>
 
     <TextView

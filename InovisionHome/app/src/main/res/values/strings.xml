@@ -7,11 +7,12 @@
     <string name="text_login">Login</string>
     <string name="sign_up_msg">Don’t have an account?</string>
     <string name="sign_up"> <u>Sign Up</u></string>
+    <string name="u_login"> <u>Login</u></string>
     <string name="service_txt"> <b>Service</b></string>
     <string-array name="items">
-        <item>Sunday</item>
-        <item>Monday</item>
-        <item>Tuesday</item>
-        <item>Wednesday</item>
+        <item>Account</item>
+        <item>Payment</item>
+        <item>Calender</item>
+        <item>Settings</item>
     </string-array>
 </resources>
