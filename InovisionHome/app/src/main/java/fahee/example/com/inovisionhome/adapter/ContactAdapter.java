@@ -1,6 +1,7 @@
 package fahee.example.com.inovisionhome.adapter;
 
 import android.content.Context;
+import android.graphics.drawable.ColorDrawable;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.widget.RecyclerView;
@@ -70,6 +71,7 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.MyViewHo
                 public void onClick(View view) {
                     DialogFragment dialog =new ContactDialogFragment();
                     dialog.show(((FragmentActivity) ctx).getSupportFragmentManager().beginTransaction(), "mydialog");
+
                 }
             });
         }

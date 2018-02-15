@@ -28,7 +28,10 @@
 
         <color name="array_dot_inactive">#c5c5c5</color>
         <color name="array_dot_active">#fd7364</color>
-
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
         <!-- <array name="array_dot_active">
              <item>@color/dot_light_screen1</item>
              <item>@color/dot_light_screen2</item>
