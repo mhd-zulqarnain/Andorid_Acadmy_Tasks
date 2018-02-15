@@ -1,6 +1,7 @@
 package fahee.example.com.inovisionhome.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import fahee.example.com.inovisionhome.R;
+import fahee.example.com.inovisionhome.calenderstuff.CustomCalenderActvity;
 
 /**
  * Created by Zul Qarnain on 2/9/2018.
@@ -46,6 +48,12 @@ public class ServiceAdapter  extends RecyclerView.Adapter<ServiceAdapter.MyViewH
         public MyViewHolder(View itemView) {
             super(itemView);
             tv= itemView.findViewById(R.id.textView);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    ctx.startActivity(new Intent(ctx, CustomCalenderActvity.class));
+                }
+            });
         }
     }
 }

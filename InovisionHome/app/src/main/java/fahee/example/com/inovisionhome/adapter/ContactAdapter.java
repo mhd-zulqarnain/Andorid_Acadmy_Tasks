@@ -1,6 +1,8 @@
 package fahee.example.com.inovisionhome.adapter;
 
 import android.content.Context;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +16,7 @@ import java.util.ArrayList;
 
 import fahee.example.com.inovisionhome.model.Contacts;
 import fahee.example.com.inovisionhome.R;
+import fahee.example.com.inovisionhome.ui.ContactDialogFragment;
 import fahee.example.com.inovisionhome.util.Messege;
 
 /**
@@ -65,7 +68,8 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.MyViewHo
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Messege.message(ctx,"open dialog fragment");
+                    DialogFragment dialog =new ContactDialogFragment();
+                    dialog.show(((FragmentActivity) ctx).getSupportFragmentManager().beginTransaction(), "mydialog");
                 }
             });
         }

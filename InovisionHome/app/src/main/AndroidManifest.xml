@@ -18,17 +18,15 @@
         <activity android:name=".ui.HomeActivity">
 
         </activity>
-        <activity android:name=".ui.CalenderActivity">
-
-        </activity>
         <activity android:name=".ui.SignupActivity">
 
         </activity>
-        <activity android:name=".ui.ContactActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
+          <activity android:name=".calenderstuff.CustomCalenderActvity">
+              <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+                  <category android:name="android.intent.category.LAUNCHER" />
+              </intent-filter>
         </activity>
     </application>
 
