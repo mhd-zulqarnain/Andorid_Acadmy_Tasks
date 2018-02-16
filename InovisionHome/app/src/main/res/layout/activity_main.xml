@@ -22,26 +22,26 @@
     <Button
         android:id="@+id/btn_next"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:layout_alignParentBottom="true"
         android:layout_marginRight="50dp"
-        android:background="@null"
+        android:background="@drawable/login_round_bg"
+        android:textSize="12sp"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="20dp"
-
         android:text="next"
         android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/btn_skip"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="50dp"
-        android:background="@null"
-        android:text="Skip"
+        android:background="@drawable/skip_round_btn"
         android:textSize="12sp"
+        android:text="Skip"
         android:textColor="@android:color/white" />
 
 </RelativeLayout>

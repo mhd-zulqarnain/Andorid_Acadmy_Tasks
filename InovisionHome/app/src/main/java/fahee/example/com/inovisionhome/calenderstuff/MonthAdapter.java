@@ -1,6 +1,7 @@
 package fahee.example.com.inovisionhome.calenderstuff;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
@@ -22,6 +23,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import fahee.example.com.inovisionhome.R;
+import fahee.example.com.inovisionhome.ui.ContactActivity;
 
 /**
  * Created by iagomendesfucolo on 24/03/17.
@@ -89,6 +91,13 @@ public class MonthAdapter extends RecyclerView.Adapter<MonthAdapter.ViewHolder> 
                 holder.day.setBackground(ResourcesCompat.getDrawable(mContext.getResources(), R.drawable.gradient_calander, null));
                 holder.day.setPadding(3,3,3,3);
                 holder.day.setTextColor(Color.WHITE);
+                holder.day.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                        mContext.startActivity(new Intent(mContext, ContactActivity.class));
+                    }
+                });
 
 
             }

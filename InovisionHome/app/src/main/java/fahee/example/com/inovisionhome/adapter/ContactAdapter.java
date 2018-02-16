@@ -63,13 +63,13 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.MyViewHo
             imageView= itemView.findViewById(R.id.user_img);
         }
 
-        public void bindView(Contacts contacts) {
+        public void bindView(final Contacts contacts) {
             this.contacts = contacts;
             Picasso.with(ctx).load(contacts.getImgAddress()).into(imageView);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    DialogFragment dialog =new ContactDialogFragment();
+                    DialogFragment dialog =ContactDialogFragment.newInstance(contacts.getName(),contacts.getImgAddress());
                     dialog.show(((FragmentActivity) ctx).getSupportFragmentManager().beginTransaction(), "mydialog");
 
                 }
