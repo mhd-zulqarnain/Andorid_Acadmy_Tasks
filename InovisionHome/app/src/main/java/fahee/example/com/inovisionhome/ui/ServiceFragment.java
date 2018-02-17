@@ -28,15 +28,14 @@ public class ServiceFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private ServiceAdapter adapter;
-    private ImageView bckButton;
     DrawerLayout parentDrawer;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = LayoutInflater.from(container.getContext()).inflate(R.layout.service_fragment_view,container,false);
+        View view = LayoutInflater.from(container.getContext())
+                .inflate(R.layout.service_fragment_view,container,false);
         recyclerView = view.findViewById(R.id.rcyc_veiw);
-        bckButton= view.findViewById(R.id.list_img);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         adapter =new ServiceAdapter(getActivity(),getData());
         parentDrawer = getActivity().findViewById(R.id.drawerLayout);
@@ -44,19 +43,6 @@ public class ServiceFragment extends Fragment {
         return view;
     }
 
-    @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        bckButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-              /*  DrawerFragment fragment= new DrawerFragment();
-                getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragment_container,fragment)
-                        .addToBackStack(null).commit();*/
-              parentDrawer.openDrawer(Gravity.LEFT);
-            }
-        });
-    }
     public ArrayList<String> getData() {
         ArrayList<String> data = new ArrayList<>();
         for(int i= 0; i<10;i++){

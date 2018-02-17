@@ -24,14 +24,12 @@ public class ContactsFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private ContactAdapter adapter;
-    private ImageView bckButton;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = LayoutInflater.from(container.getContext()).inflate(R.layout.contacts_fragment_view, container, false);
         recyclerView = view.findViewById(R.id.rcyc_veiw);
-        bckButton = view.findViewById(R.id.list_img);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         adapter = new ContactAdapter(getActivity(), getData());
         recyclerView.setAdapter(adapter);
@@ -40,12 +38,6 @@ public class ContactsFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        bckButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                getActivity().onBackPressed();
-            }
-        });
     }
 
     public ArrayList<Contacts> getData() {
