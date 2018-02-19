@@ -16,7 +16,7 @@
         </activity>
         <activity
             android:name=".ui.HomeActivity"
-            android:theme="@style/AppThemebar">
+           >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
