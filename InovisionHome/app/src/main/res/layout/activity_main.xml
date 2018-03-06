@@ -30,6 +30,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginBottom="20dp"
         android:text="next"
+        android:alpha="0.4"
         android:textColor="@android:color/white" />
 
     <Button
@@ -42,6 +43,7 @@
         android:background="@drawable/skip_round_btn"
         android:textSize="12sp"
         android:text="Skip"
+        android:alpha="0.4"
         android:textColor="@android:color/white" />
 
 </RelativeLayout>

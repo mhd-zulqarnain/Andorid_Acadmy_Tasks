@@ -19,7 +19,6 @@ import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 
 import fahee.example.com.inovisionhome.R;
-import fahee.example.com.inovisionhome.util.Messege;
 
 /**
  * Created by Zul Qarnain on 2/14/2018.
@@ -58,7 +57,7 @@ public class ContactDialogFragment extends DialogFragment {
         prfView = alertDialog.findViewById(R.id.contact_prf);
         prfName = alertDialog.findViewById(R.id.person_name);
         prfName.setText(nm);
-        //Picasso.with(getActivity()).load(img).fit().into(prfView);
+        Picasso.with(getActivity()).load(img).fit().into(prfView);
 
         btnSelect.setOnClickListener(new View.OnClickListener() {
             @Override

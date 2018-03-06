@@ -33,6 +33,7 @@ public class ContactsFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         adapter = new ContactAdapter(getActivity(), getData());
         recyclerView.setAdapter(adapter);
+//        recyclerView.addItemDecoration(new RecyclerDivider(getActivity()));
         return view;
     }
 
@@ -42,12 +43,12 @@ public class ContactsFragment extends Fragment {
 
     public ArrayList<Contacts> getData() {
         ArrayList<Contacts> data = new ArrayList<>();
-        data.add(new Contacts("Giavani", "https://www.shareicon.net/data/128x128/2016/03/20/433477_people_128x128.png"));
-        data.add(new Contacts("Noell", "https://www.shareicon.net/data/128x128/2015/12/14/207815_face_300x300.png"));
-        data.add(new Contacts("Bhaskar", "https://www.shareicon.net/data/128x128/2015/12/14/207873_face_300x300.png"));
-        data.add(new Contacts("Dasard", "https://www.shareicon.net/data/128x128/2015/12/14/207904_face_300x300.png"));
-        data.add(new Contacts("VaDas", "https://www.shareicon.net/data/128x128/2016/03/20/433477_people_128x128.png"));
-        data.add(new Contacts("Vohitk", "https://www.shareicon.net/data/128x128/2015/12/14/207815_face_300x300.png"));
+        data.add(new Contacts("Giavani", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTgLImOojp-9Kmvz5MayQCFsZVH28KSHN71TS-qrUGpt4IvhNySg"));
+        data.add(new Contacts("Noell", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTMpDT9G95muc3DnPjE3vTPpQvuZMypduGstKF_hOCmzR4W66ZdQ"));
+        data.add(new Contacts("Bhaskar", "https://s3.amazonaws.com/typekit-production-public-assets/designers/profile_images/000/000/772/original/Octavio_Pardo_square.jpg?1507308137"));
+        data.add(new Contacts("Dasard", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyKQkRReFVqahk6mrgKTGC8--6wHnpRVx72XjjtNTH0p_-xBeD"));
+        data.add(new Contacts("VaDas", "https://i1.wp.com/centreforheritagestudies.com/wp-content/uploads/2015/02/formal-hairstyles-for-men.jpg?fit=473%2C700"));
+        data.add(new Contacts("Vohitk", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLELhy05CQlu7lOk4IBeYxQh7j8Zbq-Iz0F3E5bTL2y_uW9e48"));
 
         return data;
     }

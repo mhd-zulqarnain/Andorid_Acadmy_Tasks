@@ -9,7 +9,7 @@
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="274dp"
-        android:layout_height="365dp"
+        android:layout_height="389dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -24,40 +24,59 @@
 
         <RelativeLayout
             android:id="@+id/relativeLayout2"
-            android:layout_width="200dp"
-            android:layout_height="260dp"
+            android:layout_width="215dp"
+            android:layout_height="310dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/drawbale_dialog_view">
+            android:background="@drawable/drawbale_dialog_view"
+            android:paddingLeft="19dp">
 
             <TextView
                 android:id="@+id/person_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="45dp"
+                android:layout_marginTop="49dp"
                 android:text="Jackerson" />
 
             <TextView
+                android:id="@+id/fly"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/person_name"
                 android:layout_marginLeft="12dp"
+                android:padding="12dp"
                 android:text="@string/text_fly"
-                android:id="@+id/fly"
-                android:padding="6dp"
-                android:textSize="12sp"
-                />
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/point3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fly"
+                android:layout_marginLeft="12dp"
+                android:padding="12dp"
+                android:text="@string/text_power"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/point4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/point3"
+                android:layout_marginLeft="12dp"
+                android:padding="12dp"
+                android:text="@string/text_humer"
+                android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/fly"
+                android:layout_below="@id/point4"
                 android:layout_marginLeft="12dp"
-                android:text="@string/text_power"
-                android:padding="6dp"
-                android:textSize="12sp"
-                />
+                android:padding="12dp"
+                android:text="@string/text_timly"
+                android:textSize="12sp" />
 
             <Button
                 android:id="@+id/slect_btn"
@@ -65,7 +84,7 @@
                 android:layout_height="30dp"
                 android:layout_alignParentBottom="true"
                 android:layout_centerInParent="true"
-                android:layout_marginBottom="12dp"
+                android:layout_marginBottom="22dp"
                 android:background="@drawable/round_select_gradient"
                 android:text="Select"
                 android:textAllCaps="true"
@@ -75,16 +94,13 @@
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/contact_prf"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="32dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="20dp"
             android:src="@drawable/profile"
-            app:civ_border_color="#f7b733"
-            app:civ_border_width="3dp" />
+          />
 
     </RelativeLayout>
 

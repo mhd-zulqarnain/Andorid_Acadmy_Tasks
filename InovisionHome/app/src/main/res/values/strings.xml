@@ -5,6 +5,8 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="text_fly">\u25CF "   Fly"</string>
     <string name="text_power">\u25CF "   Super Power" </string>
+    <string name="text_humer">\u25CF "   Sense of humer" </string>
+    <string name="text_timly">\u25CF "   Timely" </string>
     <string name="forget_pass">Forget Password?</string>
     <string name="text_login">Login</string>
     <string name="sign_up_msg">Don’t have an account?</string>

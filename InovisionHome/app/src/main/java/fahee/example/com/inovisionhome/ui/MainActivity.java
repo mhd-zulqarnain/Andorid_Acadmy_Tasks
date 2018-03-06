@@ -21,7 +21,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import fahee.example.com.inovisionhome.R;
-import fahee.example.com.inovisionhome.util.Messege;
 
 public class MainActivity extends AppCompatActivity {
     private ViewPager viewPager;
@@ -92,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void lanumchLogin() {
-        Messege.message(getApplicationContext(),"launched");
         Intent intent = new Intent(MainActivity.this,LoginActivity.class);
         startActivity(intent);
 

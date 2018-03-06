@@ -45,6 +45,13 @@ public class ContactActivity extends AppCompatActivity {
         }
     }
 
+    public void backBtn(View v){
+        switch (v.getId()) {
+                case R.id.back_btn:
+                finish();
+            default:
+        }
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         return super.onCreateOptionsMenu(menu);

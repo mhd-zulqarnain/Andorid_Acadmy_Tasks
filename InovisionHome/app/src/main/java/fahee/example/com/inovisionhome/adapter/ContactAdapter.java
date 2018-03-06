@@ -18,7 +18,6 @@ import java.util.ArrayList;
 import fahee.example.com.inovisionhome.model.Contacts;
 import fahee.example.com.inovisionhome.R;
 import fahee.example.com.inovisionhome.ui.ContactDialogFragment;
-import fahee.example.com.inovisionhome.util.Messege;
 
 /**
  * Created by Zul Qarnain on 2/9/2018.

@@ -13,21 +13,21 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.zulup.onswipdelete.R;
-import com.example.zulup.onswipdelete.adapter.MovieAdapter;
+import com.example.zulup.onswipdelete.adapter.StudentAdapter;
 
 /**
  * Created by zulup on 1/27/2018.
  */
 
 public class SwipHelper extends ItemTouchHelper.SimpleCallback {
-    MovieAdapter adapter;
+    StudentAdapter adapter;
     Context mContext;
     Bitmap icon ;
     public SwipHelper(int dragDirs, int swipeDirs) {
         super(dragDirs, swipeDirs);
     }
 
-    public SwipHelper(MovieAdapter adapter, Context mContext){
+    public SwipHelper(StudentAdapter adapter, Context mContext){
         super(ItemTouchHelper.UP |ItemTouchHelper.DOWN , ItemTouchHelper.RIGHT);
         this.adapter=adapter;
         this.mContext =mContext;

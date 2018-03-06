@@ -19,7 +19,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import fahee.example.com.inovisionhome.R;
-import fahee.example.com.inovisionhome.util.Messege;
 
 public class HomeActivity extends AppCompatActivity {
     FragmentManager fm;
