@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public Object instantiateItem(ViewGroup container, int position) {
             View view = LayoutInflater.from(container.getContext()).inflate(layout[position], container, false);
-          /*  if(position==0){
+            if(position==0){
                 slideImg = view.findViewById(R.id.slide_img_1);
                 slideImg.setImageBitmap(
                         decodeSampledBitmapFromResource(getResources(), R.drawable.slide1, 100, 100));
@@ -133,8 +133,8 @@ public class MainActivity extends AppCompatActivity {
             }if(position==2){
                 slideImg = view.findViewById(R.id.slide_img_3);
                 slideImg.setImageBitmap(
-                        decodeSampledBitmapFromResource(getResources(), R.drawable.slide_3, 100, 100));
-            }*/
+                        decodeSampledBitmapFromResource(getResources(), R.drawable.slide3, 100, 100));
+            }
             container.addView(view);
             return view;
         }
